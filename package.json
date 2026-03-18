@@ -1,0 +1,22 @@
+{
+  "name": "client-mod-pack-registry",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Curated registry source of truth for ClientModPackToServer.",
+  "scripts": {
+    "validate": "node scripts/validate-registry.mjs",
+    "lint": "node scripts/lint-registry.mjs",
+    "extract-corpus": "node scripts/extract-corpus.mjs",
+    "import-reports": "node scripts/import-reports.mjs",
+    "generate-candidates": "node scripts/generate-candidates.mjs",
+    "dev-check": "node scripts/dev-check-main-project.mjs",
+    "build-bundle": "node scripts/build-bundle.mjs",
+    "generate-manifest": "node scripts/generate-manifest.mjs",
+    "benchmark": "node scripts/benchmark-corpus.mjs",
+    "ci": "npm run validate && npm run lint && npm run build-bundle && npm run generate-manifest && npm run benchmark"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

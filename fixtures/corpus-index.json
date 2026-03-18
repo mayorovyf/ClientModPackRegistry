@@ -1,0 +1,342 @@
+{
+  "generatedAt": "2026-03-18T17:24:15.273Z",
+  "instancesRoot": "M:\\instances",
+  "instances": [
+    {
+      "instanceName": "Abyssal Ascent",
+      "modsDir": "M:\\instances\\Abyssal Ascent\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 208
+    },
+    {
+      "instanceName": "Atmos",
+      "modsDir": "M:\\instances\\Atmos\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 196
+    },
+    {
+      "instanceName": "Avalon Reborn",
+      "modsDir": "M:\\instances\\Avalon Reborn\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 261
+    },
+    {
+      "instanceName": "Better MC",
+      "modsDir": "M:\\instances\\Better MC\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 284
+    },
+    {
+      "instanceName": "Beyond Ascension",
+      "modsDir": "M:\\instances\\Beyond Ascension\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 485
+    },
+    {
+      "instanceName": "Beyond Depth",
+      "modsDir": "M:\\instances\\Beyond Depth\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 473
+    },
+    {
+      "instanceName": "BM Exosphere 2",
+      "modsDir": "M:\\instances\\BM Exosphere 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 210
+    },
+    {
+      "instanceName": "BM- Exosphere",
+      "modsDir": "M:\\instances\\BM- Exosphere\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 189
+    },
+    {
+      "instanceName": "Calamycraft",
+      "modsDir": "M:\\instances\\Calamycraft\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 357
+    },
+    {
+      "instanceName": "Cisco's Fantasy Medieval RPG",
+      "modsDir": "M:\\instances\\Cisco's Fantasy Medieval RPG\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 347
+    },
+    {
+      "instanceName": "COBBLEVERSE - Pokemon Adventure",
+      "modsDir": "M:\\instances\\COBBLEVERSE - Pokemon Adventure\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 132
+    },
+    {
+      "instanceName": "Craft to Exile 2",
+      "modsDir": "M:\\instances\\Craft to Exile 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 392
+    },
+    {
+      "instanceName": "Craft to Exile [Dissonance]",
+      "modsDir": "M:\\instances\\Craft to Exile [Dissonance]\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 168
+    },
+    {
+      "instanceName": "Create Ultimate Selection",
+      "modsDir": "M:\\instances\\Create Ultimate Selection\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 342
+    },
+    {
+      "instanceName": "Create Ultimate Selection 2",
+      "modsDir": "M:\\instances\\Create Ultimate Selection 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 307
+    },
+    {
+      "instanceName": "Create- Astral",
+      "modsDir": "M:\\instances\\Create- Astral\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 192
+    },
+    {
+      "instanceName": "Create- Factory Builder",
+      "modsDir": "M:\\instances\\Create- Factory Builder\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 138
+    },
+    {
+      "instanceName": "Create- Mekanized",
+      "modsDir": "M:\\instances\\Create- Mekanized\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 97
+    },
+    {
+      "instanceName": "Create- Stranded at Sea",
+      "modsDir": "M:\\instances\\Create- Stranded at Sea\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 160
+    },
+    {
+      "instanceName": "Cursed Walking",
+      "modsDir": "M:\\instances\\Cursed Walking\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 201
+    },
+    {
+      "instanceName": "DarkRPG",
+      "modsDir": "M:\\instances\\DarkRPG\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 440
+    },
+    {
+      "instanceName": "DawnCraft",
+      "modsDir": "M:\\instances\\DawnCraft\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 298
+    },
+    {
+      "instanceName": "DeceasedCraft",
+      "modsDir": "M:\\instances\\DeceasedCraft\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 306
+    },
+    {
+      "instanceName": "Desiderium",
+      "modsDir": "M:\\instances\\Desiderium\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 36
+    },
+    {
+      "instanceName": "Divine Journey 2",
+      "modsDir": "M:\\instances\\Divine Journey 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 224
+    },
+    {
+      "instanceName": "Druidic Quest- Expert",
+      "modsDir": "M:\\instances\\Druidic Quest- Expert\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 272
+    },
+    {
+      "instanceName": "Dungeon Heroes (RPG Series)",
+      "modsDir": "M:\\instances\\Dungeon Heroes (RPG Series)\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 235
+    },
+    {
+      "instanceName": "Enigmatica 9- Expert - E9E",
+      "modsDir": "M:\\instances\\Enigmatica 9- Expert - E9E\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 232
+    },
+    {
+      "instanceName": "Explorer's Eve  - Wither Storm Modpack",
+      "modsDir": "M:\\instances\\Explorer's Eve  - Wither Storm Modpack\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 37
+    },
+    {
+      "instanceName": "From Magic To Tech",
+      "modsDir": "M:\\instances\\From Magic To Tech\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 375
+    },
+    {
+      "instanceName": "FTB Skies 2",
+      "modsDir": "M:\\instances\\FTB Skies 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 423
+    },
+    {
+      "instanceName": "FTB StoneBlock 4",
+      "modsDir": "M:\\instances\\FTB StoneBlock 4\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 391
+    },
+    {
+      "instanceName": "Homestead",
+      "modsDir": "M:\\instances\\Homestead\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 89
+    },
+    {
+      "instanceName": "Journey to Dawn [RU]",
+      "modsDir": "M:\\instances\\Journey to Dawn [RU]\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 188
+    },
+    {
+      "instanceName": "Liminal Industries",
+      "modsDir": "M:\\instances\\Liminal Industries\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 146
+    },
+    {
+      "instanceName": "Linggango",
+      "modsDir": "M:\\instances\\Linggango\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 482
+    },
+    {
+      "instanceName": "MC Eternal 2",
+      "modsDir": "M:\\instances\\MC Eternal 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 598
+    },
+    {
+      "instanceName": "Medieval MC",
+      "modsDir": "M:\\instances\\Medieval MC\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 447
+    },
+    {
+      "instanceName": "Monifactory",
+      "modsDir": "M:\\instances\\Monifactory\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 219
+    },
+    {
+      "instanceName": "Multiverse Dimensions",
+      "modsDir": "M:\\instances\\Multiverse Dimensions\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 258
+    },
+    {
+      "instanceName": "NanoMagic",
+      "modsDir": "M:\\instances\\NanoMagic\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 277
+    },
+    {
+      "instanceName": "New Century Adventure",
+      "modsDir": "M:\\instances\\New Century Adventure\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 198
+    },
+    {
+      "instanceName": "NightfallCraft",
+      "modsDir": "M:\\instances\\NightfallCraft\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 171
+    },
+    {
+      "instanceName": "Nostalgic Craft 2",
+      "modsDir": "M:\\instances\\Nostalgic Craft 2\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 174
+    },
+    {
+      "instanceName": "Otherworld",
+      "modsDir": "M:\\instances\\Otherworld\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 390
+    },
+    {
+      "instanceName": "Project Sacrifice",
+      "modsDir": "M:\\instances\\Project Sacrifice\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 168
+    },
+    {
+      "instanceName": "Prominence II",
+      "modsDir": "M:\\instances\\Prominence II\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 441
+    },
+    {
+      "instanceName": "Shivrs' Ascendency",
+      "modsDir": "M:\\instances\\Shivrs' Ascendency\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 204
+    },
+    {
+      "instanceName": "Society- Sunlit Valley",
+      "modsDir": "M:\\instances\\Society- Sunlit Valley\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 343
+    },
+    {
+      "instanceName": "Soulrend",
+      "modsDir": "M:\\instances\\Soulrend\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 384
+    },
+    {
+      "instanceName": "StaTech Industry",
+      "modsDir": "M:\\instances\\StaTech Industry\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 287
+    },
+    {
+      "instanceName": "The Ancient Dawn",
+      "modsDir": "M:\\instances\\The Ancient Dawn\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 325
+    },
+    {
+      "instanceName": "The Immersive Revolution",
+      "modsDir": "M:\\instances\\The Immersive Revolution\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 244
+    },
+    {
+      "instanceName": "The Winter Rescue",
+      "modsDir": "M:\\instances\\The Winter Rescue\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 60
+    },
+    {
+      "instanceName": "waccyy's Fantasia",
+      "modsDir": "M:\\instances\\waccyy's Fantasia\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 311
+    },
+    {
+      "instanceName": "Wold's Vaults",
+      "modsDir": "M:\\instances\\Wold's Vaults\\minecraft\\mods",
+      "hasMods": true,
+      "modCount": 423
+    }
+  ]
+}

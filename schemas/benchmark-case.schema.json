@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/benchmark-case.schema.json",
+  "title": "Benchmark Case",
+  "type": "object",
+  "required": ["subject", "expectedSide"],
+  "properties": {
+    "subject": {
+      "type": "object",
+      "required": ["modId"],
+      "properties": {
+        "modId": { "type": "string", "minLength": 1 },
+        "loader": { "type": ["string", "null"] }
+      }
+    },
+    "expectedSide": {
+      "type": "string",
+      "enum": ["client", "server", "both", "unknown"]
+    },
+    "expectedConfidenceMin": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "none"]
+    },
+    "notes": { "type": ["string", "null"] },
+    "sourceOfTruth": { "type": ["string", "null"] }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "$schema": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-batch.schema.json",
+  "batchId": "mixed-legacy-client-wave-05",
+  "description": "Fifth curated wave promoting stable client-only rules from the legacy main-project blocklist and repeated runtime review cases.",
+  "rules": [
+    {
+      "ruleId": "mixed.appleskin.client",
+      "modIds": ["appleskin"],
+      "fileNames": [
+        "appleskin-fabric-mc1.20.1-2.5.2.jar",
+        "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "appleskin-neoforge-mc1.21-3.0.7.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated HUD-side corpus usage consistently classify AppleSkin as client-only.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Also resolves the remaining Fabric review case that was still oscillating between shared metadata and UI-only evidence."
+    },
+    {
+      "ruleId": "mixed.ambientsounds.client",
+      "modIds": ["ambientsounds"],
+      "fileNames": [
+        "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+        "AmbientSounds_NEOFORGE_v6.3.4_mc1.21.1.jar"
+      ],
+      "loaders": ["forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated review hits only expose client-side ambience assets and audio hooks.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted to remove repeated sound-only review cases from Forge and NeoForge packs."
+    },
+    {
+      "ruleId": "mixed.bhmenu.client",
+      "modIds": ["bhmenu"],
+      "fileNames": [
+        "BHMenu-Fabric-1.20.1-2.4.2.jar",
+        "BHMenu-Forge-1.20.1-2.4.3.jar",
+        "BHMenu-NeoForge-1.21-2.4.4.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and runtime review history both indicate a menu-only client mod with no server-side evidence.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Includes file-name fallback so malformed Fabric jars without parsed metadata still match the curated rule."
+    },
+    {
+      "ruleId": "mixed.clickadv.client",
+      "modIds": ["clickadv"],
+      "fileNames": [
+        "clickadv-1.20.1-3.8.jar",
+        "clickadv-1.21-3.8.jar",
+        "clickadv-fabric-1.20.1-3.8.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and review evidence consistently point to a purely client-side advancement UI helper.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted after repeated runtime review cases in HUD-oriented packs."
+    },
+    {
+      "ruleId": "mixed.controlling.client",
+      "modIds": ["controlling"],
+      "fileNames": [
+        "Controlling-forge-1.20.1-12.0.2.jar",
+        "Controlling-neoforge-1.21.1-19.0.5.jar"
+      ],
+      "loaders": ["forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist identifies Controlling as a keybind-search UI mod with client-only behavior.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Fabric is already covered by an earlier curated wave; this extends the same decision to Forge and NeoForge."
+    },
+    {
+      "ruleId": "mixed.embeddium.client",
+      "modIds": ["embeddium"],
+      "aliases": ["rubidium"],
+      "fileNames": [
+        "embeddium-0.3.31+mc1.20.1.jar",
+        "embeddium-1.0.15+mc1.21.1.jar"
+      ],
+      "loaders": ["forge", "neoforge"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Legacy blocklist and the existing main-project test suite both treat Embeddium as a client graphics optimization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted with higher confidence because the main project already relies on this classification in automated tests."
+    },
+    {
+      "ruleId": "mixed.euphoria_patcher.client",
+      "modIds": ["euphoria_patcher"],
+      "fileNames": [
+        "EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-forge.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and corpus metadata consistently mark Euphoria Patcher as a client shader-side helper.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Includes file-name fallback to cover malformed Fabric jars that fail metadata extraction but still appear in review."
+    },
+    {
+      "ruleId": "mixed.fancymenu.client",
+      "modIds": ["fancymenu"],
+      "fileNames": [
+        "fancymenu_fabric_3.7.0_MC_1.20.1.jar",
+        "fancymenu_forge_3.7.0_MC_1.20.1.jar",
+        "fancymenu_neoforge_3.8.1_MC_1.21.1.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and corpus prevalence both identify FancyMenu as a client menu customization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted to suppress high-volume client UI false-positive review cases across all supported loaders."
+    },
+    {
+      "ruleId": "mixed.konkrete.client",
+      "modIds": ["konkrete"],
+      "fileNames": [
+        "konkrete_fabric_1.9.9_MC_1.21.jar",
+        "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+        "konkrete_neoforge_1.9.9_MC_1.21.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and dependency patterns link Konkrete to client UI stacks such as FancyMenu.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Used as the shared client-side library behind multiple menu customization mods."
+    },
+    {
+      "ruleId": "mixed.melody.client",
+      "modIds": ["melody"],
+      "fileNames": [
+        "melody_fabric_1.0.10_MC_1.21.jar",
+        "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+        "melody_neoforge_1.0.10_MC_1.21.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist consistently treats Melody as a client audio library used by menu customization stacks.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted together with FancyMenu and Konkrete to keep the whole client-only menu stack aligned."
+    },
+    {
+      "ruleId": "mixed.mousetweaks.client",
+      "modIds": ["mousetweaks"],
+      "fileNames": [
+        "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+        "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+      ],
+      "loaders": ["forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist classifies Mouse Tweaks as a client input helper with no server-side execution path.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Fabric is already covered by an earlier curated wave; this fills the Forge and NeoForge gap."
+    },
+    {
+      "ruleId": "mixed.oculus.client",
+      "modIds": ["oculus"],
+      "fileNames": [
+        "oculus-mc1.18.2-1.6.4.jar",
+        "oculus-mc1.19.2-1.6.9.jar",
+        "oculus-mc1.20.1-1.8.0.jar"
+      ],
+      "loaders": ["forge"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Legacy blocklist and renderer-only shader integration history both classify Oculus as client-only.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted with higher confidence because it is the Forge-side shader companion to Iris."
+    },
+    {
+      "ruleId": "mixed.smoothchunk.client",
+      "modIds": ["smoothchunk"],
+      "aliases": ["smoothchunksave", "smoothchunksaveforge"],
+      "fileNames": [
+        "smoothchunk-fabric-1.21-4.1.jar",
+        "smoothchunk-1.20.1-4.0.jar",
+        "smoothchunk-1.21-4.1.jar"
+      ],
+      "loaders": ["fabric", "forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated runtime review hits consistently point to a client-side chunk rendering optimization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted specifically to remove remaining review noise from graphics optimization packs."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-rule.schema.json",
+  "title": "Authoring Rule",
+  "type": "object",
+  "required": ["ruleId", "loaders", "side", "confidence", "reason", "source"],
+  "anyOf": [
+    {
+      "properties": {
+        "modIds": {
+          "type": "array",
+          "minItems": 1
+        }
+      },
+      "required": ["modIds"]
+    },
+    {
+      "properties": {
+        "aliases": {
+          "type": "array",
+          "minItems": 1
+        }
+      },
+      "required": ["aliases"]
+    },
+    {
+      "properties": {
+        "fileNames": {
+          "type": "array",
+          "minItems": 1
+        }
+      },
+      "required": ["fileNames"]
+    }
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "ruleId": { "type": "string", "minLength": 1 },
+    "modIds": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "fileNames": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "loaders": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": ["fabric", "quilt", "forge", "neoforge", "shared"]
+      }
+    },
+    "side": {
+      "type": "string",
+      "enum": ["client", "server", "both", "unknown"]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "none"]
+    },
+    "reason": { "type": "string", "minLength": 1 },
+    "source": { "type": "string", "minLength": 1 },
+    "priority": { "type": "integer" },
+    "updatedAt": { "type": ["string", "null"] },
+    "notes": { "type": ["string", "null"] }
+  }
+}

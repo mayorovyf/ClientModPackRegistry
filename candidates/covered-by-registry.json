@@ -1,0 +1,5333 @@
+{
+  "generatedAt": "2026-03-18T18:34:47.508Z",
+  "totalCovered": 83,
+  "covered": [
+    {
+      "key": "mod:sodiumoptionsapi::neoforge",
+      "primaryModId": "sodiumoptionsapi",
+      "fileNames": [
+        "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+        "sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+        "sodiumoptionsapi-fabric-1.0.8-1.20.1.jar",
+        "sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+        "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar"
+      ],
+      "modIds": [
+        "sodiumoptionsapi"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Sodium Options API"
+      ],
+      "versions": [
+        "1.0.10",
+        "1.0.8"
+      ],
+      "instanceCount": 20,
+      "corpusFiles": 20,
+      "reviewCount": 2,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 20
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.sodiumoptionsapi.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.sodiumoptionsapi.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-runtime-review",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\runtime-review-wave-04.json#rules[0]"
+        }
+      ],
+      "priority": 220
+    },
+    {
+      "key": "mod:mousetweaks::forge",
+      "primaryModId": "mousetweaks",
+      "fileNames": [
+        "MouseTweaks-2.13-mc1.15.1.jar",
+        "MouseTweaks-forge-mc1.18-2.21.jar",
+        "MouseTweaks-forge-mc1.19-2.23.jar",
+        "MouseTweaks-forge-mc1.20.1-2.25.1.jar"
+      ],
+      "modIds": [
+        "mousetweaks"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "MouseTweaks"
+      ],
+      "versions": [
+        "2.13",
+        "2.21",
+        "2.23",
+        "2.25.1"
+      ],
+      "instanceCount": 32,
+      "corpusFiles": 32,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 32
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.mousetweaks.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.mousetweaks.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[10]"
+        }
+      ],
+      "priority": 192
+    },
+    {
+      "key": "mod:fancymenu::forge",
+      "primaryModId": "fancymenu",
+      "fileNames": [
+        "fancymenu_2.2.2-2_MC_1.15.2.jar",
+        "fancymenu_forge_2.14.9_MC_1.18.2.jar",
+        "fancymenu_forge_2.14.9_MC_1.19-1.19.2.jar",
+        "fancymenu_forge_3.1.2_MC_1.18.2.jar",
+        "fancymenu_forge_3.2.3_MC_1.20.1.jar",
+        "fancymenu_forge_3.3.2_MC_1.19.2.jar",
+        "fancymenu_forge_3.3.2_MC_1.20.1.jar",
+        "fancymenu_forge_3.5.0_MC_1.20.1.jar",
+        "fancymenu_forge_3.5.2_MC_1.20.1.jar",
+        "fancymenu_forge_3.6.4_MC_1.20.1.jar",
+        "fancymenu_forge_3.7.0_MC_1.18.2.jar",
+        "fancymenu_forge_3.7.0_MC_1.20.1.jar",
+        "fancymenu_forge_3.8.1_MC_1.20.1.jar"
+      ],
+      "modIds": [
+        "fancymenu"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "FancyMenu",
+        "fancymenu-1.15.2-31.2.49",
+        "fancymenu-1.18.2",
+        "fancymenu-1.19"
+      ],
+      "versions": [
+        "1.0",
+        "1.0.0",
+        "3.1.2",
+        "3.2.3",
+        "3.3.2",
+        "3.5.0",
+        "3.5.2",
+        "3.6.4",
+        "3.7.0",
+        "3.8.1"
+      ],
+      "instanceCount": 31,
+      "corpusFiles": 31,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 31
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.fancymenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.fancymenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[7]"
+        }
+      ],
+      "priority": 186
+    },
+    {
+      "key": "mod:konkrete::forge",
+      "primaryModId": "konkrete",
+      "fileNames": [
+        "konkrete_1.1.6_MC_1.15-1.15.2.jar",
+        "konkrete_forge_1.6.1_MC_1.18-1.18.2.jar",
+        "konkrete_forge_1.6.1_MC_1.19-1.19.2.jar",
+        "konkrete_forge_1.8.0_MC_1.18-1.18.2.jar",
+        "konkrete_forge_1.8.0_MC_1.19-1.19.2.jar",
+        "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar"
+      ],
+      "modIds": [
+        "konkrete"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "konkrete-1.15.2-31.2.0",
+        "konkrete-1.18",
+        "konkrete-1.19",
+        "konkrete-1.20.1"
+      ],
+      "versions": [
+        "1.0",
+        "1.0.0"
+      ],
+      "instanceCount": 31,
+      "corpusFiles": 31,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 31
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.konkrete.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.konkrete.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[8]"
+        }
+      ],
+      "priority": 186
+    },
+    {
+      "key": "mod:smoothchunk::forge",
+      "primaryModId": "smoothchunk",
+      "fileNames": [
+        "smoothchunk-1.18.2-1.9.jar",
+        "smoothchunk-1.19.1-2.0.jar",
+        "smoothchunk-1.19.2-3.5.jar",
+        "smoothchunk-1.20.1-4.0.jar",
+        "smoothchunk-1.20.1-4.1.jar",
+        "smoothchunk-fabric-1.18.2-1.9.jar",
+        "smoothchunk-fabric-1.19.2-3.5.jar",
+        "smoothchunk-fabric-1.20.1-3.8.jar",
+        "smoothchunk-fabric-1.20.1-4.1.jar"
+      ],
+      "modIds": [
+        "smoothchunk"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "Smoothchunk mod",
+        "smoothchunksave",
+        "smoothchunksaveForge"
+      ],
+      "versions": [
+        "${file.jarVersion}",
+        "1.18.2-1.9",
+        "1.19.1-2.0",
+        "1.19.2-3.5",
+        "1.20.1-4.0",
+        "1.20.1-4.1"
+      ],
+      "instanceCount": 22,
+      "corpusFiles": 22,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 22
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.smoothchunk.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.smoothchunk.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[12]"
+        }
+      ],
+      "priority": 182
+    },
+    {
+      "key": "mod:controlling::forge",
+      "primaryModId": "controlling",
+      "fileNames": [
+        "Controlling-6.1.5.6.jar",
+        "Controlling-forge-1.18.2-9.0+23.jar",
+        "Controlling-forge-1.19.2-10.0+7.jar",
+        "Controlling-forge-1.20.1-12.0.2.jar"
+      ],
+      "modIds": [
+        "controlling"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "Controlling_1.15",
+        "forge",
+        "Forge"
+      ],
+      "versions": [
+        "10.0+7",
+        "12.0.2",
+        "6.1.5.6",
+        "9.0+23"
+      ],
+      "instanceCount": 30,
+      "corpusFiles": 30,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 30
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.controlling.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.controlling.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[4]"
+        }
+      ],
+      "priority": 180
+    },
+    {
+      "key": "mod:embeddium::forge",
+      "primaryModId": "embeddium",
+      "fileNames": [
+        "embeddium-0.2.18+mc1.19.2.jar",
+        "embeddium-0.3.18.1+mc1.19.2.jar",
+        "embeddium-0.3.18+mc1.18.2.jar",
+        "embeddium-0.3.19+mc1.20.1-all.jar",
+        "embeddium-0.3.31+mc1.20.1.jar",
+        "xenon-0.3.31+mc1.20.1.jar"
+      ],
+      "modIds": [
+        "embeddium",
+        "rubidium",
+        "xenon"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "Embeddium",
+        "Xenon"
+      ],
+      "versions": [
+        "0.2.18+mc1.19.2",
+        "0.3.18.1+mc1.19.2",
+        "0.3.18+mc1.18.2",
+        "0.3.19+mc1.20.1",
+        "0.3.31",
+        "0.3.31+mc1.20.1"
+      ],
+      "instanceCount": 30,
+      "corpusFiles": 30,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 1,
+        "unknown": 29
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (mixed.embeddium.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.embeddium.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[5]"
+        }
+      ],
+      "priority": 180
+    },
+    {
+      "key": "mod:appleskin::forge",
+      "primaryModId": "appleskin",
+      "fileNames": [
+        "appleskin-forge-mc1.18.2-2.5.1.jar",
+        "appleskin-forge-mc1.19-2.4.2.jar",
+        "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "AppleSkin-mc1.15.2-forge-1.0.13.jar",
+        "AppleSkin-mc1.15.2-forge-1.0.14.jar"
+      ],
+      "modIds": [
+        "appleskin"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "AppleSkin"
+      ],
+      "versions": [
+        "1.0.13",
+        "1.0.14",
+        "2.4.2+mc1.19",
+        "2.5.1+mc1.18.2",
+        "2.5.1+mc1.20.1"
+      ],
+      "instanceCount": 28,
+      "corpusFiles": 28,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 28
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.appleskin.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.appleskin.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[0]"
+        }
+      ],
+      "priority": 168
+    },
+    {
+      "key": "mod:melody::forge",
+      "primaryModId": "melody",
+      "fileNames": [
+        "melody_forge_1.0.1_MC_1.18.2.jar",
+        "melody_forge_1.0.1_MC_1.19.2.jar",
+        "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar"
+      ],
+      "modIds": [
+        "melody"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "forge"
+      ],
+      "versions": [
+        "1.0.1",
+        "1.0.3"
+      ],
+      "instanceCount": 28,
+      "corpusFiles": 28,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 28
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.melody.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.melody.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[9]"
+        }
+      ],
+      "priority": 168
+    },
+    {
+      "key": "mod:oculus::forge",
+      "primaryModId": "oculus",
+      "fileNames": [
+        "mekalus-mc1.20.1-1.8.0.1.jar",
+        "oculus-mc1.18.2-1.6.4.jar",
+        "oculus-mc1.19.2-1.6.9.jar",
+        "oculus-mc1.20.1-1.8.0.jar"
+      ],
+      "modIds": [
+        "oculus"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "Mekalus (Oculus)",
+        "Oculus"
+      ],
+      "versions": [
+        "1.6.4",
+        "1.6.9",
+        "1.8.0",
+        "1.8.0.1"
+      ],
+      "instanceCount": 27,
+      "corpusFiles": 28,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 28
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (mixed.oculus.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.oculus.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[11]"
+        }
+      ],
+      "priority": 163
+    },
+    {
+      "key": "mod:ambientsounds::forge",
+      "primaryModId": "ambientsounds",
+      "fileNames": [
+        "AmbientSounds_FABRIC_v6.3.4_mc1.20.1.jar",
+        "AmbientSounds_FORGE_v5.0.16_mc1.18.2.jar",
+        "AmbientSounds_FORGE_v6.1.10_mc1.20.1.jar",
+        "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+        "AmbientSounds_FORGE_v6.1.4_mc1.20.1.jar",
+        "AmbientSounds_FORGE_v6.3.1_mc1.20.1.jar",
+        "AmbientSounds_FORGE_v6.3.4_mc1.20.1.jar",
+        "AmbientSounds_v3.0.20_mc1.15.2.jar"
+      ],
+      "modIds": [
+        "ambientsounds"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "Ambient Sounds",
+        "AmbientSounds"
+      ],
+      "versions": [
+        "3.0.3",
+        "5.0.16",
+        "6.1.10",
+        "6.1.11",
+        "6.1.4",
+        "6.3.1",
+        "6.3.4"
+      ],
+      "instanceCount": 15,
+      "corpusFiles": 15,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "client": 2,
+        "unknown": 13
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.ambientsounds.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.ambientsounds.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[1]"
+        }
+      ],
+      "priority": 140
+    },
+    {
+      "key": "mod:badoptimizations::forge",
+      "primaryModId": "badoptimizations",
+      "fileNames": [
+        "BadOptimizations-2.2.1-1.20.1.jar",
+        "BadOptimizations-2.2.2-1.20.1.jar",
+        "BadOptimizations-2.2.3-1.20.1.jar",
+        "BadOptimizations-2.4.1-1.20.1.jar"
+      ],
+      "modIds": [
+        "badoptimizations"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "BadOptimizations"
+      ],
+      "versions": [
+        "2.2.1",
+        "2.2.2",
+        "2.2.3",
+        "2.4.1"
+      ],
+      "instanceCount": 15,
+      "corpusFiles": 15,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 15
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.badoptimizations.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.badoptimizations.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-runtime-review",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\runtime-review-wave-04.json#rules[1]"
+        }
+      ],
+      "priority": 140
+    },
+    {
+      "key": "file:euphoriapatcher-1.8.6-r5.7.1-fabric.jar::fabric",
+      "primaryModId": null,
+      "fileNames": [
+        "EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar"
+      ],
+      "modIds": [],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [],
+      "versions": [],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 2,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.euphoria_patcher.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.euphoria_patcher.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[6]"
+        }
+      ],
+      "priority": 118
+    },
+    {
+      "key": "mod:clickadv::forge",
+      "primaryModId": "clickadv",
+      "fileNames": [
+        "clickadv-1.19.2-3.6.jar",
+        "clickadv-1.20.1-3.8.jar",
+        "clickadv-fabric-1.20.1-3.8.jar",
+        "clickadv-fabric-3.0.jar"
+      ],
+      "modIds": [
+        "clickadv"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "clickadv mod",
+        "ClickAdvancements"
+      ],
+      "versions": [
+        "${file.jarVersion}",
+        "1.19.2-3.6",
+        "1.20.1-3.8"
+      ],
+      "instanceCount": 11,
+      "corpusFiles": 11,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 11
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.clickadv.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.clickadv.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[3]"
+        }
+      ],
+      "priority": 116
+    },
+    {
+      "key": "mod:iceberg::fabric",
+      "primaryModId": "iceberg",
+      "fileNames": [
+        "Iceberg-1.18.2-fabric-1.0.38.jar",
+        "Iceberg-1.19.1-fabric-1.0.46.jar",
+        "Iceberg-1.20.1-fabric-1.1.25.jar",
+        "Iceberg-1.21.1-fabric-1.3.2.jar"
+      ],
+      "modIds": [
+        "iceberg"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Iceberg"
+      ],
+      "versions": [
+        "1.0.38",
+        "1.0.46",
+        "1.1.25",
+        "1.3.2"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 1,
+      "keepCount": 1,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check found both keep and remove evidence",
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 8
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.iceberg.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.iceberg.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[2]"
+        }
+      ],
+      "priority": 98
+    },
+    {
+      "key": "mod:appleskin::fabric",
+      "primaryModId": "appleskin",
+      "fileNames": [
+        "appleskin-fabric-mc1.18.2-2.5.1.jar",
+        "appleskin-fabric-mc1.19.2-2.5.1.jar",
+        "appleskin-fabric-mc1.20.1-2.5.2.jar",
+        "appleskin-fabric-mc1.21-3.0.6.jar"
+      ],
+      "modIds": [
+        "appleskin"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "AppleSkin"
+      ],
+      "versions": [
+        "2.5.1+mc1.18.2",
+        "2.5.1+mc1.19",
+        "2.5.2+mc1.20.1",
+        "3.0.6+mc1.21"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 1,
+      "keepCount": 1,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check found both keep and remove evidence",
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.appleskin.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.appleskin.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[0]"
+        }
+      ],
+      "priority": 92
+    },
+    {
+      "key": "mod:ambientsounds::neoforge",
+      "primaryModId": "ambientsounds",
+      "fileNames": [
+        "AmbientSounds_FABRIC_v6.3.1_mc1.21.1.jar",
+        "AmbientSounds_FABRIC_v6.3.5_mc1.21.1.jar",
+        "AmbientSounds_NEOFORGE_v6.2.2_mc1.21.1.jar",
+        "AmbientSounds_NEOFORGE_v6.3.4_mc1.21.1.jar"
+      ],
+      "modIds": [
+        "ambientsounds"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "AmbientSounds"
+      ],
+      "versions": [
+        "6.2.2",
+        "6.3.1",
+        "6.3.4"
+      ],
+      "instanceCount": 5,
+      "corpusFiles": 5,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 5
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.ambientsounds.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.ambientsounds.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[1]"
+        }
+      ],
+      "priority": 80
+    },
+    {
+      "key": "mod:mr_dungeons_andtaverns::fabric",
+      "primaryModId": "mr_dungeons_andtaverns",
+      "fileNames": [
+        "dungeons-and-taverns-3.0.3.f[Fabric].jar",
+        "dungeons-and-taverns-v4.4.4 [Fabric].jar"
+      ],
+      "modIds": [
+        "mr_dungeons_andtaverns"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Dungeons and Taverns"
+      ],
+      "versions": [
+        "1-v4.4.4",
+        "3.0.3.f"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "both": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.mr-dungeons-and-taverns.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.mr-dungeons-and-taverns.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[5]"
+        }
+      ],
+      "priority": 74
+    },
+    {
+      "key": "mod:badoptimizations::neoforge",
+      "primaryModId": "badoptimizations",
+      "fileNames": [
+        "BadOptimizations-2.4.1-1.21.1.jar"
+      ],
+      "modIds": [
+        "badoptimizations"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "BadOptimizations"
+      ],
+      "versions": [
+        "2.4.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.badoptimizations.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.badoptimizations.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-runtime-review",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\runtime-review-wave-04.json#rules[1]"
+        }
+      ],
+      "priority": 68
+    },
+    {
+      "key": "file:bhmenu-fabric-1.20.1-2.4.2.jar::fabric",
+      "primaryModId": null,
+      "fileNames": [
+        "BHMenu-Fabric-1.20.1-2.4.2.jar"
+      ],
+      "modIds": [],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [],
+      "versions": [],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "unknown": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.bhmenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.bhmenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[2]"
+        }
+      ],
+      "priority": 62
+    },
+    {
+      "key": "mod:euphoria_patcher::forge",
+      "primaryModId": "euphoria_patcher",
+      "fileNames": [
+        "EuphoriaPatcher-0.3.3-forge.jar",
+        "EuphoriaPatcher-1.6.4-r5.5.1-forge.jar",
+        "EuphoriaPatcher-1.7.4-r5.6.1-forge.jar",
+        "EuphoriaPatcher-1.7.8-r5.6.1-forge.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-forge.jar"
+      ],
+      "modIds": [
+        "euphoria_patcher"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "EuphoriaPatcher",
+        "forge"
+      ],
+      "versions": [
+        "0.3.3-forge",
+        "1.6.4-r5.5.1-forge",
+        "1.7.4-r5.6.1-forge",
+        "1.7.8-r5.6.1-forge",
+        "1.8.6-r5.7.1-forge"
+      ],
+      "instanceCount": 10,
+      "corpusFiles": 10,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 10
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.euphoria_patcher.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.euphoria_patcher.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[6]"
+        }
+      ],
+      "priority": 60
+    },
+    {
+      "key": "mod:yeetusexperimentus::fabric",
+      "primaryModId": "yeetusexperimentus",
+      "fileNames": [
+        "YeetusExperimentus-Fabric-2.3.1-build.6+mc1.20.1.jar"
+      ],
+      "modIds": [
+        "yeetusexperimentus"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Fabric"
+      ],
+      "versions": [
+        "2.3.1-build.6+mc1.20.1"
+      ],
+      "instanceCount": 1,
+      "corpusFiles": 1,
+      "reviewCount": 1,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Deep-check did not produce enough decisive evidence"
+      ],
+      "declaredSides": {
+        "both": 1
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.yeetusexperimentus.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.yeetusexperimentus.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-runtime-review",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\runtime-review-wave-04.json#rules[2]"
+        }
+      ],
+      "priority": 56
+    },
+    {
+      "key": "mod:bhmenu::forge",
+      "primaryModId": "bhmenu",
+      "fileNames": [
+        "BHMenu-Forge-1.18.2-2.4.3.jar",
+        "BHMenu-Forge-1.19.2-2.4.3.jar",
+        "BHMenu-Forge-1.20.1-2.4.3.jar"
+      ],
+      "modIds": [
+        "bhmenu"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "displayNames": [
+        "b-link-forge"
+      ],
+      "versions": [
+        "2.4.3"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 9
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.bhmenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.bhmenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[2]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:fabric-api::fabric",
+      "primaryModId": "fabric-api",
+      "fileNames": [
+        "fabric-api-0.116.7+1.21.1.jar",
+        "fabric-api-0.116.9+1.21.1.jar",
+        "fabric-api-0.77.0+1.18.2.jar",
+        "fabric-api-0.77.0+1.19.2.jar",
+        "fabric-api-0.92.2+1.20.1.jar",
+        "fabric-api-0.92.7+1.20.1.jar"
+      ],
+      "modIds": [
+        "fabric-api"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Fabric API"
+      ],
+      "versions": [
+        "0.116.7+1.21.1",
+        "0.116.9+1.21.1",
+        "0.77.0+1.18.2",
+        "0.77.0+1.19.2",
+        "0.92.2+1.20.1",
+        "0.92.7+1.20.1"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as compatible with both sides"
+      ],
+      "declaredSides": {
+        "both": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.fabric-api.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.fabric-api.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[0]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:iris::fabric",
+      "primaryModId": "iris",
+      "fileNames": [
+        "iris-1.7.5+mc1.20.1.jar",
+        "iris-1.7.6+mc1.20.1.jar",
+        "iris-fabric-1.8.8+mc1.21.1.jar",
+        "iris-mc1.18.2-1.6.10.jar",
+        "iris-mc1.19.2-1.6.11.jar"
+      ],
+      "modIds": [
+        "iris"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Iris"
+      ],
+      "versions": [
+        "1.6.10",
+        "1.6.11",
+        "1.7.5+mc1.20.1",
+        "1.7.6+mc1.20.1",
+        "1.8.8+mc1.21.1"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.iris.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.iris.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[0]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:modmenu::fabric",
+      "primaryModId": "modmenu",
+      "fileNames": [
+        "modmenu-11.0.3.jar",
+        "modmenu-3.2.5.jar",
+        "modmenu-4.2.0-beta.2.jar",
+        "modmenu-7.2.2.jar"
+      ],
+      "modIds": [
+        "modmenu"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Mod Menu"
+      ],
+      "versions": [
+        "11.0.3",
+        "3.2.5",
+        "4.2.0-beta.2",
+        "7.2.2"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Dependency validation preserved this jar because ForgeConfigScreens-v8.0.2-1.20.1-Fabric.jar requires modmenu",
+        "Dependency validation preserved this jar because Stellar View-1.21.1-0.5.2-Fabric.jar requires modmenu"
+      ],
+      "declaredSides": {
+        "client": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.modmenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.modmenu.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[0]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:reeses-sodium-options::fabric",
+      "primaryModId": "reeses-sodium-options",
+      "fileNames": [
+        "reeses_sodium_options-1.6.3+mc1.18.2-build.88.jar",
+        "reeses_sodium_options-1.6.4+mc1.19.2-build.93.jar",
+        "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+        "reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar"
+      ],
+      "modIds": [
+        "reeses-sodium-options"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Reese's Sodium Options"
+      ],
+      "versions": [
+        "1.6.3+mc1.18.2-build.88",
+        "1.6.4+mc1.19.2-build.93",
+        "1.7.2+mc1.20.1-build.101",
+        "1.8.3+mc1.21.4"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.reeses-sodium-options.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.reeses-sodium-options.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[1]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:sodium-extra::fabric",
+      "primaryModId": "sodium-extra",
+      "fileNames": [
+        "sodium-extra-0.4.16+mc1.19.2-build.90.jar",
+        "sodium-extra-0.4.18+mc1.18.2-build.98.jar",
+        "sodium-extra-0.5.4+mc1.20.1-build.115.jar",
+        "sodium-extra-0.5.9+mc1.20.1.jar",
+        "sodium-extra-fabric-0.6.0+mc1.21.1.jar"
+      ],
+      "modIds": [
+        "sodium-extra"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Sodium Extra"
+      ],
+      "versions": [
+        "0.4.16+mc1.19.2-build.90",
+        "0.4.18+mc1.18.2-build.98",
+        "0.5.4+mc1.20.1-build.115",
+        "0.5.9+mc1.20.1",
+        "0.6.0+mc1.21.1"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.sodium-extra.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.sodium-extra.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[1]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:sodium::fabric",
+      "primaryModId": "sodium",
+      "fileNames": [
+        "sodium-fabric-0.5.11+mc1.20.1.jar",
+        "sodium-fabric-0.5.13+mc1.20.1.jar",
+        "sodium-fabric-0.6.13+mc1.21.1.jar",
+        "sodium-fabric-mc1.18.2-0.4.1 (replaymod compatible).jar",
+        "sodium-fabric-mc1.19.2-0.4.4+build.18.jar"
+      ],
+      "modIds": [
+        "sodium"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Sodium"
+      ],
+      "versions": [
+        "0.4.1+replaymod.rev.23e83a1",
+        "0.4.4+build.18",
+        "0.5.11+mc1.20.1",
+        "0.5.13+mc1.20.1",
+        "0.6.13+mc1.21.1"
+      ],
+      "instanceCount": 9,
+      "corpusFiles": 9,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 9
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.sodium.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.sodium.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[2]"
+        }
+      ],
+      "priority": 54
+    },
+    {
+      "key": "mod:appleskin::neoforge",
+      "primaryModId": "appleskin",
+      "fileNames": [
+        "appleskin-neoforge-mc1.21-3.0.7.jar",
+        "appleskin-neoforge-mc1.21-3.0.8.jar"
+      ],
+      "modIds": [
+        "appleskin"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "AppleSkin"
+      ],
+      "versions": [
+        "3.0.7+mc1.21",
+        "3.0.8+mc1.21"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 8
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.appleskin.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.appleskin.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[0]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:cardinal-components::fabric",
+      "primaryModId": "cardinal-components",
+      "fileNames": [
+        "cardinal-components-api-4.2.0.jar",
+        "cardinal-components-api-5.0.2.jar",
+        "cardinal-components-api-5.2.2.jar",
+        "cardinal-components-api-5.2.3.jar",
+        "cardinal-components-api-6.1.3.jar"
+      ],
+      "modIds": [
+        "cardinal-components"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Cardinal Components API"
+      ],
+      "versions": [
+        "4.2.0",
+        "5.0.2",
+        "5.2.2",
+        "5.2.3",
+        "6.1.3"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as compatible with both sides"
+      ],
+      "declaredSides": {
+        "both": 8
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.cardinal-components.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.cardinal-components.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[1]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:controlling::neoforge",
+      "primaryModId": "controlling",
+      "fileNames": [
+        "Controlling-neoforge-1.21.1-19.0.5.jar"
+      ],
+      "modIds": [
+        "controlling"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "neoforge"
+      ],
+      "versions": [
+        "19.0.5"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 8
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.controlling.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.controlling.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[4]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:fancymenu::fabric",
+      "primaryModId": "fancymenu",
+      "fileNames": [
+        "fancymenu_fabric_2.14.14_MC_1.19-1.19.2.jar",
+        "fancymenu_fabric_3.3.2_MC_1.20.1.jar",
+        "fancymenu_fabric_3.5.2_MC_1.18.2.jar",
+        "fancymenu_fabric_3.7.0_MC_1.20.1.jar",
+        "fancymenu_fabric_3.8.1_MC_1.21.1.jar"
+      ],
+      "modIds": [
+        "fancymenu"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "FancyMenu"
+      ],
+      "versions": [
+        "2.14.14",
+        "3.3.2",
+        "3.5.2",
+        "3.7.0",
+        "3.8.1"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 8
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.fancymenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.fancymenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[7]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:konkrete::fabric",
+      "primaryModId": "konkrete",
+      "fileNames": [
+        "konkrete_fabric_1.8.0_MC_1.18-1.18.2.jar",
+        "konkrete_fabric_1.8.0_MC_1.19.1-1.19.2.jar",
+        "konkrete_fabric_1.8.1_MC_1.20.1.jar",
+        "konkrete_fabric_1.9.9_MC_1.21.jar"
+      ],
+      "modIds": [
+        "konkrete"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Konkrete"
+      ],
+      "versions": [
+        "1.8.0",
+        "1.8.1",
+        "1.9.9"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 8
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.konkrete.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.konkrete.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[8]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:mousetweaks::neoforge",
+      "primaryModId": "mousetweaks",
+      "fileNames": [
+        "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+      ],
+      "modIds": [
+        "mousetweaks"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Mouse Tweaks"
+      ],
+      "versions": [
+        "2.26.1"
+      ],
+      "instanceCount": 8,
+      "corpusFiles": 8,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 8
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.mousetweaks.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.mousetweaks.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[10]"
+        }
+      ],
+      "priority": 48
+    },
+    {
+      "key": "mod:continuity::fabric",
+      "primaryModId": "continuity",
+      "fileNames": [
+        "continuity-2.0.2+1.18.2.jar",
+        "continuity-2.0.2+1.19.jar",
+        "continuity-3.0.0-beta.5+1.20.1.jar",
+        "continuity-3.0.0+1.21.jar"
+      ],
+      "modIds": [
+        "continuity"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Continuity"
+      ],
+      "versions": [
+        "2.0.2+1.18.2",
+        "2.0.2+1.19",
+        "3.0.0-beta.5+1.20.1",
+        "3.0.0+1.21"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.continuity.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.continuity.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[3]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:controlling::fabric",
+      "primaryModId": "controlling",
+      "fileNames": [
+        "Controlling-fabric-1.18.2-9.0+23.jar",
+        "Controlling-fabric-1.19.2-10.0+7.jar",
+        "Controlling-fabric-1.20.1-12.0.2.jar",
+        "Controlling-fabric-1.21.1-19.0.5.jar"
+      ],
+      "modIds": [
+        "controlling"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "fabric",
+        "Fabric"
+      ],
+      "versions": [
+        "10.0+7",
+        "12.0.2",
+        "19.0.5",
+        "9.0+23"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.controlling.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.controlling.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[2]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:entity_texture_features::fabric",
+      "primaryModId": "entity_texture_features",
+      "fileNames": [
+        "entity_texture_features_1.20.1-fabric-7.0.9.jar",
+        "entity_texture_features_1.21-fabric-7.0.6.jar",
+        "entity_texture_features_1.21-fabric-7.0.9.jar",
+        "entity_texture_features_fabric_1.18.2-6.0.jar",
+        "entity_texture_features_fabric_1.20.1-6.2.8.jar"
+      ],
+      "modIds": [
+        "entity_texture_features"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Entity Texture Features"
+      ],
+      "versions": [
+        "6.0",
+        "6.2.8",
+        "7.0.6",
+        "7.0.9"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.entity_texture_features.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.entity_texture_features.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[3]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:fancymenu::neoforge",
+      "primaryModId": "fancymenu",
+      "fileNames": [
+        "fancymenu_neoforge_3.7.0_MC_1.21.1.jar",
+        "fancymenu_neoforge_3.8.1_MC_1.21.1.jar"
+      ],
+      "modIds": [
+        "fancymenu"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "FancyMenu"
+      ],
+      "versions": [
+        "3.7.0",
+        "3.8.1"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 7
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.fancymenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.fancymenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[7]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:indium::fabric",
+      "primaryModId": "indium",
+      "fileNames": [
+        "indium-1.0.34+mc1.20.1.jar",
+        "indium-1.0.35+mc1.21.jar",
+        "indium-1.0.36+mc1.20.1.jar",
+        "indium-1.0.7+mc1.18.2.jar",
+        "indium-1.0.9+mc1.19.2.jar"
+      ],
+      "modIds": [
+        "indium"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Indium"
+      ],
+      "versions": [
+        "1.0.34+mc1.20.1",
+        "1.0.35+mc1.21",
+        "1.0.36+mc1.20.1",
+        "1.0.7+mc1.18.2",
+        "1.0.9+mc1.19.2"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.indium.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.indium.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[4]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:konkrete::neoforge",
+      "primaryModId": "konkrete",
+      "fileNames": [
+        "konkrete_neoforge_1.9.9_MC_1.21.jar"
+      ],
+      "modIds": [
+        "konkrete"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Konkrete"
+      ],
+      "versions": [
+        "1.9.9"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 7
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.konkrete.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.konkrete.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[8]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:melody::fabric",
+      "primaryModId": "melody",
+      "fileNames": [
+        "melody_fabric_1.0.1_MC_1.18.2.jar",
+        "melody_fabric_1.0.10_MC_1.21.jar",
+        "melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar"
+      ],
+      "modIds": [
+        "melody"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "fabric",
+        "Melody"
+      ],
+      "versions": [
+        "1.0.1",
+        "1.0.10",
+        "1.0.4"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 2,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.melody.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.melody.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[9]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:melody::neoforge",
+      "primaryModId": "melody",
+      "fileNames": [
+        "melody_neoforge_1.0.10_MC_1.21.jar"
+      ],
+      "modIds": [
+        "melody"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Melody"
+      ],
+      "versions": [
+        "1.0.10"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 7
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.melody.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.melody.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[9]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:mousetweaks::fabric",
+      "primaryModId": "mousetweaks",
+      "fileNames": [
+        "MouseTweaks-fabric-mc1.20-2.26.jar",
+        "MouseTweaks-fabric-mc1.21-2.26.jar"
+      ],
+      "modIds": [
+        "mousetweaks"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Mouse Tweaks"
+      ],
+      "versions": [
+        "2.26"
+      ],
+      "instanceCount": 7,
+      "corpusFiles": 7,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 7
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.mousetweaks.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.mousetweaks.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[4]"
+        }
+      ],
+      "priority": 42
+    },
+    {
+      "key": "mod:entity_model_features::fabric",
+      "primaryModId": "entity_model_features",
+      "fileNames": [
+        "entity_model_features_1.20.1-fabric-3.0.12.jar",
+        "entity_model_features_1.21-fabric-3.0.12.jar",
+        "entity_model_features_1.21-fabric-3.0.7.jar",
+        "entity_model_features_fabric_1.20.1-2.0.2.jar"
+      ],
+      "modIds": [
+        "entity_model_features"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Entity Model Features"
+      ],
+      "versions": [
+        "2.0.2",
+        "3.0.12",
+        "3.0.7"
+      ],
+      "instanceCount": 6,
+      "corpusFiles": 6,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 6
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.entity_model_features.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.entity_model_features.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[5]"
+        }
+      ],
+      "priority": 36
+    },
+    {
+      "key": "mod:immediatelyfast::fabric",
+      "primaryModId": "immediatelyfast",
+      "fileNames": [
+        "ImmediatelyFast-1.1.12+1.18.2.jar",
+        "ImmediatelyFast-Fabric-1.2.17+1.20.4.jar",
+        "ImmediatelyFast-Fabric-1.3.2+1.20.4.jar",
+        "ImmediatelyFast-Fabric-1.6.10+1.21.1.jar",
+        "ImmediatelyFast-Fabric-1.6.7+1.21.1.jar"
+      ],
+      "modIds": [
+        "immediatelyfast"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "ImmediatelyFast"
+      ],
+      "versions": [
+        "1.1.12",
+        "1.2.17+1.20.4",
+        "1.3.2+1.20.4",
+        "1.6.10+1.21.1",
+        "1.6.7+1.21.1"
+      ],
+      "instanceCount": 6,
+      "corpusFiles": 6,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 6
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.immediatelyfast.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.immediatelyfast.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[6]"
+        }
+      ],
+      "priority": 36
+    },
+    {
+      "key": "mod:searchables::fabric",
+      "primaryModId": "searchables",
+      "fileNames": [
+        "Searchables-fabric-1.20.1-1.0.3.jar",
+        "Searchables-fabric-1.21.1-1.0.2.jar"
+      ],
+      "modIds": [
+        "searchables"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "fabric"
+      ],
+      "versions": [
+        "1.0.2",
+        "1.0.3"
+      ],
+      "instanceCount": 6,
+      "corpusFiles": 6,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 6
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.searchables.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.searchables.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[7]"
+        }
+      ],
+      "priority": 36
+    },
+    {
+      "key": "mod:bhmenu::neoforge",
+      "primaryModId": "bhmenu",
+      "fileNames": [
+        "BHMenu-NeoForge-1.21-2.4.4.jar"
+      ],
+      "modIds": [
+        "bhmenu"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "b-link-neoforge"
+      ],
+      "versions": [
+        "2.4.4"
+      ],
+      "instanceCount": 5,
+      "corpusFiles": 5,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 5
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.bhmenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.bhmenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[2]"
+        }
+      ],
+      "priority": 30
+    },
+    {
+      "key": "mod:chat_heads::fabric",
+      "primaryModId": "chat_heads",
+      "fileNames": [
+        "chat_heads-0.13.7-fabric-1.19.2.jar",
+        "chat_heads-0.13.7-fabric-1.20.jar",
+        "chat_heads-0.15.0-fabric-1.20.jar",
+        "chat_heads-0.15.0-fabric-1.21.jar"
+      ],
+      "modIds": [
+        "chat_heads"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Chat Heads"
+      ],
+      "versions": [
+        "0.13.7",
+        "0.15.0"
+      ],
+      "instanceCount": 5,
+      "corpusFiles": 5,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 5
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.chat-heads.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.chat-heads.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[8]"
+        }
+      ],
+      "priority": 30
+    },
+    {
+      "key": "mod:citresewn::fabric",
+      "primaryModId": "citresewn",
+      "fileNames": [
+        "CITResewn-1.1.1+1.18.2.jar",
+        "citresewn-1.1.5+1.20.1.jar",
+        "citresewn-1.2.2+1.20.1.jar",
+        "citresewn-1.2.2+1.21.jar"
+      ],
+      "modIds": [
+        "citresewn"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "CIT Resewn"
+      ],
+      "versions": [
+        "1.1.1+1.18.2",
+        "1.1.5+1.20.1",
+        "1.2.2+1.20.1",
+        "1.2.2+1.21"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.citresewn.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.citresewn.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[9]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:enhancedblockentities::fabric",
+      "primaryModId": "enhancedblockentities",
+      "fileNames": [
+        "enhancedblockentities-0.10.2+1.21.jar",
+        "enhancedblockentities-0.7.2+1.19.2.jar",
+        "enhancedblockentities-0.9+1.20.jar"
+      ],
+      "modIds": [
+        "enhancedblockentities"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Enhanced Block Entities"
+      ],
+      "versions": [
+        "0.10.2+1.21",
+        "0.7.2+1.19.2",
+        "0.9+1.20"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.enhancedblockentities.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.enhancedblockentities.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[5]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:euphoria_patcher::neoforge",
+      "primaryModId": "euphoria_patcher",
+      "fileNames": [
+        "EuphoriaPatcher-1.6.8-r5.5.1-neoforge.jar",
+        "EuphoriaPatcher-1.7.8-r5.6.1-fabric.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar"
+      ],
+      "modIds": [
+        "euphoria_patcher"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Euphoria Patcher"
+      ],
+      "versions": [
+        "1.6.8-r5.5.1-neoforge",
+        "1.7.8-r5.6.1-neoforge",
+        "1.8.6-r5.7.1-neoforge"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.euphoria_patcher.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.euphoria_patcher.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[6]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:presencefootsteps::fabric",
+      "primaryModId": "presencefootsteps",
+      "fileNames": [
+        "PresenceFootsteps-1.10.1+1.20.1.jar",
+        "PresenceFootsteps-1.10.2+1.21.jar",
+        "PresenceFootsteps-1.11.0+1.21.jar"
+      ],
+      "modIds": [
+        "presencefootsteps"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Presence Footsteps"
+      ],
+      "versions": [
+        "1.10.1+1.20.1",
+        "1.10.2+1.21",
+        "1.11.0+1.21"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.presencefootsteps.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.presencefootsteps.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[6]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:resourcepackoverrides::fabric",
+      "primaryModId": "resourcepackoverrides",
+      "fileNames": [
+        "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+        "ResourcePackOverrides-v8.0.3-1.20.1-Fabric.jar"
+      ],
+      "modIds": [
+        "resourcepackoverrides"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Resource Pack Overrides"
+      ],
+      "versions": [
+        "21.1.0",
+        "8.0.3"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.resourcepackoverrides.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.resourcepackoverrides.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[7]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:sdrp::fabric",
+      "primaryModId": "sdrp",
+      "fileNames": [
+        "SimpleDiscordRichPresence-fabric-3.0.6-build.39+mc1.19.2.jar",
+        "SimpleDiscordRichPresence-fabric-4.0.3-build.40+mc1.20.1.jar",
+        "SimpleDiscordRichPresence-fabric-88.0.1-build.54+mc1.21.1.jar"
+      ],
+      "modIds": [
+        "sdrp"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Simple Discord Rich Presence"
+      ],
+      "versions": [
+        "3.0.6-build.39+mc1.19.2",
+        "4.0.3-build.40+mc1.20.1",
+        "88.0.1-build.54+mc1.21.1"
+      ],
+      "instanceCount": 4,
+      "corpusFiles": 4,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 4
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.sdrp.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.sdrp.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[10]"
+        }
+      ],
+      "priority": 24
+    },
+    {
+      "key": "mod:animatica::fabric",
+      "primaryModId": "animatica",
+      "fileNames": [
+        "animatica-0.6.1+1.20.4.jar",
+        "animatica-0.6.1+1.21.jar"
+      ],
+      "modIds": [
+        "animatica"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Animatica"
+      ],
+      "versions": [
+        "0.6.1+1.20.4",
+        "0.6.1+1.21"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.animatica.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.animatica.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[8]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:betterbeds::fabric",
+      "primaryModId": "betterbeds",
+      "fileNames": [
+        "betterbeds-1.3.0-1.19.3.jar",
+        "betterbeds-fabric-1.4.0.jar"
+      ],
+      "modIds": [
+        "betterbeds"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Better Beds"
+      ],
+      "versions": [
+        "1.3.0",
+        "1.4.0"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.betterbeds.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.betterbeds.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[9]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:bettermounthud::fabric",
+      "primaryModId": "bettermounthud",
+      "fileNames": [
+        "bettermounthud-1.2.0.jar",
+        "bettermounthud-1.2.2.jar",
+        "bettermounthud-1.2.4.jar"
+      ],
+      "modIds": [
+        "bettermounthud"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Better Mount HUD"
+      ],
+      "versions": [
+        "1.2.0",
+        "1.2.2",
+        "1.2.4"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.bettermounthud.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.bettermounthud.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[11]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:betterthirdperson::fabric",
+      "primaryModId": "betterthirdperson",
+      "fileNames": [
+        "BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+        "BetterThirdPerson-Fabric-1.21-1.9.0.jar"
+      ],
+      "modIds": [
+        "betterthirdperson"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Better Third Person"
+      ],
+      "versions": [
+        "1.9.0"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.betterthirdperson.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.betterthirdperson.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[10]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:bobby::fabric",
+      "primaryModId": "bobby",
+      "fileNames": [
+        "bobby-5.0.1.jar"
+      ],
+      "modIds": [
+        "bobby"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Bobby"
+      ],
+      "versions": [
+        "5.0.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.bobby.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.bobby.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[12]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:configureddefaults::fabric",
+      "primaryModId": "configureddefaults",
+      "fileNames": [
+        "ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar",
+        "ConfiguredDefaults-v8.0.1-1.20.1-Fabric.jar"
+      ],
+      "modIds": [
+        "configureddefaults"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Configured Defaults"
+      ],
+      "versions": [
+        "21.1.3",
+        "8.0.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 1,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as compatible with both sides"
+      ],
+      "declaredSides": {
+        "both": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.configureddefaults.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.configureddefaults.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[3]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:cubes-without-borders::fabric",
+      "primaryModId": "cubes-without-borders",
+      "fileNames": [
+        "cwb-fabric-3.0.0+mc1.20.jar",
+        "cwb-fabric-3.0.0+mc1.21.jar"
+      ],
+      "modIds": [
+        "cubes-without-borders"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Cubes Without Borders"
+      ],
+      "versions": [
+        "3.0.0+mc1.20",
+        "3.0.0+mc1.21"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.cubes-without-borders.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.cubes-without-borders.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[11]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:enchdesc::fabric",
+      "primaryModId": "enchdesc",
+      "fileNames": [
+        "EnchantmentDescriptions-Fabric-1.20.1-17.1.19.jar",
+        "enchdesc-fabric-1.21.1-21.1.9.jar"
+      ],
+      "modIds": [
+        "enchdesc"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "fabric"
+      ],
+      "versions": [
+        "17.1.19",
+        "21.1.9"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.enchdesc.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.enchdesc.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[12]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:fallingleaves::fabric",
+      "primaryModId": "fallingleaves",
+      "fileNames": [
+        "fallingleaves-1.13.0+1.19.2.jar",
+        "fallingleaves-1.15.6+1.20.1.jar"
+      ],
+      "modIds": [
+        "fallingleaves"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Falling Leaves"
+      ],
+      "versions": [
+        "1.13.0+1.19.2",
+        "1.15.6"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.fallingleaves.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.fallingleaves.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[13]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:highlighter::fabric",
+      "primaryModId": "highlighter",
+      "fileNames": [
+        "Highlighter-1.20.1-fabric-1.1.9.jar",
+        "Highlighter-1.21-fabric-1.1.11.jar"
+      ],
+      "modIds": [
+        "highlighter"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Highlighter"
+      ],
+      "versions": [
+        "1.1.11",
+        "1.1.9"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.highlighter.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.highlighter.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[14]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:inventoryhud::fabric",
+      "primaryModId": "inventoryhud",
+      "fileNames": [
+        "inventoryhud.fabric.1.19.2-3.4.26.jar",
+        "inventoryhud.fabric.1.20.1-3.4.26.jar",
+        "inventoryhud.fabric.1.21.1-3.4.26.jar"
+      ],
+      "modIds": [
+        "inventoryhud"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Inventory HUD +"
+      ],
+      "versions": [
+        "3.4.26"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.inventoryhud.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.inventoryhud.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[15]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:inventoryprofilesnext::fabric",
+      "primaryModId": "inventoryprofilesnext",
+      "fileNames": [
+        "InventoryProfilesNext-fabric-1.18.2-1.10.10.jar",
+        "InventoryProfilesNext-fabric-1.19-1.10.12.jar",
+        "InventoryProfilesNext-fabric-1.21.1-2.2.3.jar"
+      ],
+      "modIds": [
+        "inventoryprofilesnext"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "\"Inventory Profiles Next\"",
+        "Inventory Profiles Next"
+      ],
+      "versions": [
+        "1.10.10",
+        "1.10.12",
+        "2.2.3+ebf804ee"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.inventoryprofilesnext.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.inventoryprofilesnext.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[16]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:lambdynlights::fabric",
+      "primaryModId": "lambdynlights",
+      "fileNames": [
+        "lambdynamiclights-2.2.0+1.19.2.jar",
+        "lambdynamiclights-4.4.0+1.20.1.jar"
+      ],
+      "modIds": [
+        "lambdynlights"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "LambDynamicLights"
+      ],
+      "versions": [
+        "2.2.0+1.19.2",
+        "4.4.0+1.20.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.lambdynlights.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.lambdynlights.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[17]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:languagereload::fabric",
+      "primaryModId": "languagereload",
+      "fileNames": [
+        "language-reload-1.7.1+1.20.1.jar",
+        "language-reload-1.7.5+1.20.1.jar",
+        "language-reload-1.7.5+1.21.1.jar"
+      ],
+      "modIds": [
+        "languagereload"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Language Reload"
+      ],
+      "versions": [
+        "1.7.1+1.20.1",
+        "1.7.5+1.20.1",
+        "1.7.5+1.21.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.languagereload.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.languagereload.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[13]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:libipn::fabric",
+      "primaryModId": "libipn",
+      "fileNames": [
+        "libIPN-fabric-1.18.2-4.0.2.jar",
+        "libIPN-fabric-1.19-4.0.2.jar",
+        "libIPN-fabric-1.21.1-6.6.2.jar"
+      ],
+      "modIds": [
+        "libipn"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "\"libIPN\"",
+        "libIPN"
+      ],
+      "versions": [
+        "4.0.2",
+        "6.6.2+9bf5e05"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.libipn.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.libipn.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[18]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:lootbeams::fabric",
+      "primaryModId": "lootbeams",
+      "fileNames": [
+        "lootbeams-1.0.3.jar",
+        "lootbeams-3.6.1-mc1.21-.1.jar"
+      ],
+      "modIds": [
+        "lootbeams"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "LootBeams"
+      ],
+      "versions": [
+        "1.0.3",
+        "3.6.1-mc1.21-.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 2,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438",
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.lootbeams.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.lootbeams.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-corpus-metadata",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-only-wave-01.json#rules[19]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:smoothchunk::neoforge",
+      "primaryModId": "smoothchunk",
+      "fileNames": [
+        "smoothchunk-1.21-4.1.jar"
+      ],
+      "modIds": [
+        "smoothchunk"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Smoothchunk mod"
+      ],
+      "versions": [
+        "4.1"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 3
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.smoothchunk.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.smoothchunk.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[12]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:visuality::fabric",
+      "primaryModId": "visuality",
+      "fileNames": [
+        "visuality-0.5.6.jar",
+        "visuality-0.7.1+1.20.jar"
+      ],
+      "modIds": [
+        "visuality"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Visuality"
+      ],
+      "versions": [
+        "0.5.6",
+        "0.7.1+1.20"
+      ],
+      "instanceCount": 3,
+      "corpusFiles": 3,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 3
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.visuality.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.visuality.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[14]"
+        }
+      ],
+      "priority": 18
+    },
+    {
+      "key": "mod:boatiview::fabric",
+      "primaryModId": "boatiview",
+      "fileNames": [
+        "Boat-Item-View-Fabric-1.20.1-0.0.5.jar"
+      ],
+      "modIds": [
+        "boatiview"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Boat Item View Fabric"
+      ],
+      "versions": [
+        "0.0.5"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.boatiview.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.boatiview.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[15]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:dynamictrim::fabric",
+      "primaryModId": "dynamictrim",
+      "fileNames": [
+        "dynamictrim-1.4.1-fabric+1.20.1.jar"
+      ],
+      "modIds": [
+        "dynamictrim"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "DynamicTrim"
+      ],
+      "versions": [
+        "1.4.1"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 1,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as compatible with both sides"
+      ],
+      "declaredSides": {
+        "both": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "both",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.dynamictrim.both)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.dynamictrim.both",
+          "side": "both",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\shared-keep-wave-03.json#rules[4]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:embeddium::neoforge",
+      "primaryModId": "embeddium",
+      "fileNames": [
+        "embeddium-1.0.15+mc1.21.1.jar"
+      ],
+      "modIds": [
+        "embeddium"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Embeddium"
+      ],
+      "versions": [
+        "1.0.15+mc1.21.1"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 2
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (mixed.embeddium.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.embeddium.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[5]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:mindfuldarkness::fabric",
+      "primaryModId": "mindfuldarkness",
+      "fileNames": [
+        "MindfulDarkness-v8.0.3-1.20.1-Fabric.jar"
+      ],
+      "modIds": [
+        "mindfuldarkness"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Mindful Darkness"
+      ],
+      "versions": [
+        "8.0.3"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-prominence-ii-20260318-205340-086-0077"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.mindfuldarkness.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.mindfuldarkness.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[16]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:overflowingbars::fabric",
+      "primaryModId": "overflowingbars",
+      "fileNames": [
+        "OverflowingBars-v21.1.1-1.21.1-Fabric.jar",
+        "OverflowingBars-v8.0.1-1.20.1-Fabric.jar"
+      ],
+      "modIds": [
+        "overflowingbars"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Overflowing Bars"
+      ],
+      "versions": [
+        "21.1.1",
+        "8.0.1"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "high",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-only mod with client entrypoints."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "high",
+        "reason": "A curated rule already covers this subject (fabric.overflowingbars.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.overflowingbars.client",
+          "side": "client",
+          "confidence": "high",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[17]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:puzzle::fabric",
+      "primaryModId": "puzzle",
+      "fileNames": [
+        "puzzle-1.4.1-1.18.jar",
+        "puzzle-1.5.2+1.20.jar"
+      ],
+      "modIds": [
+        "puzzle"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Puzzle"
+      ],
+      "versions": [
+        "1.4.1-1.18",
+        "1.5.2+1.20"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "client",
+        "confidence": "medium",
+        "status": "safe-auto-candidate",
+        "reason": "Metadata consistently indicates a client-side mod across the corpus."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (fabric.puzzle.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "fabric.puzzle.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "curated-review-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\fabric\\client-review-wave-02.json#rules[18]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:smoothchunk::fabric",
+      "primaryModId": "smoothchunk",
+      "fileNames": [
+        "smoothchunk-fabric-1.21-4.1.jar"
+      ],
+      "modIds": [
+        "smoothchunk"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Smooth chunk save Mod"
+      ],
+      "versions": [
+        "1.21-4.1"
+      ],
+      "instanceCount": 2,
+      "corpusFiles": 2,
+      "reviewCount": 0,
+      "keepCount": 1,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Descriptor declares this jar as shared/common"
+      ],
+      "declaredSides": {
+        "both": 2
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "both",
+        "confidence": "medium",
+        "status": "candidate",
+        "reason": "Metadata consistently indicates compatibility with both sides."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.smoothchunk.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.smoothchunk.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[12]"
+        }
+      ],
+      "priority": 12
+    },
+    {
+      "key": "mod:bhmenu::fabric",
+      "primaryModId": "bhmenu",
+      "fileNames": [
+        "BHMenu-Fabric-1.21-2.5.3.jar"
+      ],
+      "modIds": [
+        "bhmenu"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "BHMenu-Fabric"
+      ],
+      "versions": [
+        "1.21-2.5.3"
+      ],
+      "instanceCount": 1,
+      "corpusFiles": 1,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 1,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [
+        "bundle-medieval-mc-20260318-205352-381-b438"
+      ],
+      "reportReasons": [
+        "Metadata explicitly marks the mod as client-side"
+      ],
+      "declaredSides": {
+        "client": 1
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.bhmenu.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.bhmenu.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[2]"
+        }
+      ],
+      "priority": 6
+    },
+    {
+      "key": "mod:clickadv::neoforge",
+      "primaryModId": "clickadv",
+      "fileNames": [
+        "clickadv-1.21-3.8.jar"
+      ],
+      "modIds": [
+        "clickadv"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "displayNames": [
+        "Clickable Advancements mod"
+      ],
+      "versions": [
+        "3.8"
+      ],
+      "instanceCount": 1,
+      "corpusFiles": 1,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "unknown": 1
+      },
+      "metadataFilesFound": [
+        "META-INF/MANIFEST.MF",
+        "META-INF/neoforge.mods.toml"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.clickadv.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.clickadv.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[3]"
+        }
+      ],
+      "priority": 6
+    },
+    {
+      "key": "mod:euphoria_patcher::fabric",
+      "primaryModId": "euphoria_patcher",
+      "fileNames": [
+        "EuphoriaPatcher-1.4.3-r5.3-fabric.jar"
+      ],
+      "modIds": [
+        "euphoria_patcher"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "displayNames": [
+        "Euphoria Patcher"
+      ],
+      "versions": [
+        "1.4.3-r5.3-fabric"
+      ],
+      "instanceCount": 1,
+      "corpusFiles": 1,
+      "reviewCount": 0,
+      "keepCount": 0,
+      "removeCount": 0,
+      "manualKeepCount": 0,
+      "manualExcludeCount": 0,
+      "runIds": [],
+      "reportReasons": [],
+      "declaredSides": {
+        "client": 1
+      },
+      "metadataFilesFound": [
+        "fabric.mod.json",
+        "META-INF/MANIFEST.MF"
+      ],
+      "corpusProposal": {
+        "side": "unknown",
+        "confidence": "none",
+        "status": "needs-review",
+        "reason": "Corpus signals are mixed or too weak for an automatic proposal."
+      },
+      "classification": {
+        "status": "already-curated",
+        "recommendedSide": "client",
+        "confidence": "medium",
+        "reason": "A curated rule already covers this subject (mixed.euphoria_patcher.client)."
+      },
+      "curatedMatches": [
+        {
+          "ruleId": "mixed.euphoria_patcher.client",
+          "side": "client",
+          "confidence": "medium",
+          "source": "legacy-blocklist-promotion",
+          "sourcePath": "C:\\.projects\\ClientModPackRegistry\\registry\\mixed\\legacy-client-wave-05.json#rules[6]"
+        }
+      ],
+      "priority": 6
+    }
+  ]
+}

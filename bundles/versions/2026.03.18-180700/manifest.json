@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": "2026.03.18-180700",
+  "bundleFile": "registry.bundle.json",
+  "bundleChecksum": "sha256:90bcefbbeb15e5fd212f9ec69436c05df5a92e2da02582dce73c85a9a40168c6",
+  "bundleSize": 33058,
+  "publishedAt": "2026-03-18T18:07:00.445Z",
+  "source": "ClientModPackRegistry"
+}

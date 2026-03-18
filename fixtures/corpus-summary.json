@@ -1,0 +1,22 @@
+{
+  "generatedAt": "2026-03-18T17:24:15.273Z",
+  "instancesRoot": "M:\\instances",
+  "instancesTotal": 56,
+  "instancesWithMods": 56,
+  "totalJars": 15235,
+  "uniqueSubjects": 5831,
+  "averageJarsPerInstance": 272.1,
+  "loaders": {
+    "fabric": 2488,
+    "forge": 9246,
+    "neoforge": 2694,
+    "quilt": 3,
+    "unknown": 804
+  },
+  "declaredSides": {
+    "both": 1940,
+    "client": 479,
+    "server": 5,
+    "unknown": 12811
+  }
+}

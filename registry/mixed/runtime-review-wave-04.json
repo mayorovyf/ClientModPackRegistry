@@ -1,0 +1,53 @@
+{
+  "$schema": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-batch.schema.json",
+  "batchId": "mixed-runtime-review-wave-04",
+  "description": "Fourth curated wave for repeated runtime review cases validated against the current dev-check corpus.",
+  "rules": [
+    {
+      "ruleId": "mixed.sodiumoptionsapi.client",
+      "modIds": ["sodiumoptionsapi"],
+      "fileNames": [
+        "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+        "sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+        "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Repeated runtime review cases only expose GUI-oriented archive paths and no server-side evidence.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest Prominence II and Medieval MC dev-check runs after repeated review hits around Sodium options GUI classes and assets."
+    },
+    {
+      "ruleId": "mixed.badoptimizations.client",
+      "modIds": ["badoptimizations"],
+      "fileNames": [
+        "BadOptimizations-2.2.3-1.20.1.jar",
+        "BadOptimizations-2.4.1-1.21.1.jar"
+      ],
+      "loaders": ["forge", "neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Repeated runtime review cases align with renderer-only mixins and the legacy client blocklist signal.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest dev-check runs after archive analysis repeatedly surfaced renderer and ClientPlayer mixins without server-side evidence."
+    },
+    {
+      "ruleId": "fabric.yeetusexperimentus.both",
+      "modIds": ["yeetusexperimentus"],
+      "fileNames": ["YeetusExperimentus-Fabric-2.3.1-build.6+mc1.20.1.jar"],
+      "loaders": ["fabric"],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Metadata explicitly marks the jar as shared/common; the remaining review case comes from a low-confidence legacy filename signal.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest Prominence II dev-check run to override a weak blocklist match with stronger shared-side metadata."
+    }
+  ]
+}

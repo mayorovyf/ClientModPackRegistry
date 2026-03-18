@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-batch.schema.json",
+  "title": "Authoring Batch",
+  "type": "object",
+  "required": ["rules"],
+  "additionalProperties": true,
+  "properties": {
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["ruleId", "modIds", "loaders", "side", "confidence", "reason", "source"]
+      }
+    }
+  }
+}

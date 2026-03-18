@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-03-18T17:57:10.292Z",
+  "reportRoots": [
+    "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\prominence-ii\\bundle\\reports",
+    "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\medieval-mc\\bundle\\reports"
+  ],
+  "overridesPath": "C:\\.projects\\ClientModPackToServer\\data\\review-overrides.json",
+  "reportDirs": [
+    "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\prominence-ii\\bundle\\reports\\bundle-prominence-ii-20260318-205340-086-0077",
+    "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\medieval-mc\\bundle\\reports\\bundle-medieval-mc-20260318-205352-381-b438"
+  ],
+  "overrideEntries": 0,
+  "runs": [
+    {
+      "runId": "bundle-prominence-ii-20260318-205340-086-0077",
+      "reportDir": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\prominence-ii\\bundle\\reports\\bundle-prominence-ii-20260318-205340-086-0077",
+      "reportPath": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\prominence-ii\\bundle\\reports\\bundle-prominence-ii-20260318-205340-086-0077\\report.json",
+      "runPath": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\prominence-ii\\bundle\\reports\\bundle-prominence-ii-20260318-205340-086-0077\\run.json",
+      "decisionCount": 441,
+      "reviewCount": 12
+    },
+    {
+      "runId": "bundle-medieval-mc-20260318-205352-381-b438",
+      "reportDir": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\medieval-mc\\bundle\\reports\\bundle-medieval-mc-20260318-205352-381-b438",
+      "reportPath": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\medieval-mc\\bundle\\reports\\bundle-medieval-mc-20260318-205352-381-b438\\report.json",
+      "runPath": "C:\\.projects\\ClientModPackRegistry\\.tmp\\dev-checks\\2026-03-18T17-53-33-637Z\\medieval-mc\\bundle\\reports\\bundle-medieval-mc-20260318-205352-381-b438\\run.json",
+      "decisionCount": 447,
+      "reviewCount": 13
+    }
+  ]
+}
