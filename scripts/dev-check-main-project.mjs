@@ -10,6 +10,7 @@ const mainProjectRoot = process.env.CLIENT_MOD_PACK_TO_SERVER_ROOT
 const mainProjectEntry = path.join(mainProjectRoot, 'index.js');
 const bundlePath = path.join(repoRoot, 'bundles', 'latest', 'registry.bundle.json');
 const corpusIndexPath = path.join(repoRoot, 'fixtures', 'corpus-index.json');
+const mainProjectRegistryCacheDir = path.join(mainProjectRoot, 'cache', 'registry');
 
 const defaultInstanceNames = ['Better MC', 'Prominence II', 'FTB StoneBlock 4'];
 const requestedTargets = process.argv.slice(2);
@@ -208,6 +209,32 @@ function executeScenario({
     return log;
 }
 
+async function withTemporarilyHiddenRegistryCache(tempRoot, action) {
+    const backupDir = path.join(tempRoot, 'registry-cache-backup');
+    let movedOriginalCache = false;
+
+    await ensureDir(tempRoot);
+
+    if (fs.existsSync(mainProjectRegistryCacheDir)) {
+        await fsp.rm(backupDir, { recursive: true, force: true });
+        await fsp.rename(mainProjectRegistryCacheDir, backupDir);
+        movedOriginalCache = true;
+    }
+
+    try {
+        return await action();
+    } finally {
+        await fsp.rm(mainProjectRegistryCacheDir, { recursive: true, force: true });
+
+        if (movedOriginalCache && fs.existsSync(backupDir)) {
+            await ensureDir(path.dirname(mainProjectRegistryCacheDir));
+            await fsp.rename(backupDir, mainProjectRegistryCacheDir);
+        } else {
+            await fsp.rm(backupDir, { recursive: true, force: true });
+        }
+    }
+}
+
 const selectedTargets = (requestedTargets.length > 0 ? requestedTargets : defaultInstanceNames)
     .map(resolveInstanceTarget)
     .filter(Boolean);
@@ -260,7 +287,7 @@ for (const target of selectedTargets) {
     });
     const baselineResult = await findSingleRunReport(baselineReportRoot);
 
-    const bundleLog = executeScenario({
+    const bundleLog = await withTemporarilyHiddenRegistryCache(path.join(instanceRoot, 'bundle'), async () => executeScenario({
         scenarioKey: 'bundle',
         instanceName: target.instanceName,
         instancePath: target.instancePath,
@@ -269,7 +296,7 @@ for (const target of selectedTargets) {
         runIdPrefix: `bundle-${instanceSlug}`,
         serverDirName: `${instanceSlug}-server`,
         registryFilePath: bundlePath
-    });
+    }));
     const bundleResult = await findSingleRunReport(bundleReportRoot);
 
     const baselineReview = getReviewCount(baselineResult.report);

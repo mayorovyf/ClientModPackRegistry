@@ -1,0 +1,118 @@
+{
+  "$schema": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-batch.schema.json",
+  "batchId": "mixed-verified-keep-wave-08",
+  "description": "Eighth curated wave of keep-side rules promoted from explicit official compatibility pages and local metadata checks.",
+  "rules": [
+    {
+      "ruleId": "mixed.createaddition.forge.both",
+      "modIds": ["createaddition"],
+      "fileNames": [
+        "createaddition-fabric+1.20.1-1.2.6.jar",
+        "createaddition-fabric+1.19.2-1.2.3.jar",
+        "createaddition-1.20.1-1.3.3.jar"
+      ],
+      "loaders": ["forge"],
+      "side": "both",
+      "confidence": "high",
+      "reason": "Official compatibility pages and bundled loader metadata both describe Create Crafts & Additions as a client-and-server Create addon.",
+      "source": "curated-runtime-review",
+      "priority": 140,
+      "updatedAt": "2026-03-19",
+      "notes": "Promoted after checking Modrinth compatibility plus the bundled Fabric and Forge descriptors inside the jar used by Prominence II."
+    },
+    {
+      "ruleId": "mixed.immersivelanterns.neoforge.both",
+      "modIds": ["immersivelanterns"],
+      "fileNames": [
+        "immersivelanterns-fabric-1.0.6-1.20.1.jar",
+        "immersivelanterns-fabric-1.0.6-1.21.1.jar",
+        "immersivelanterns-forge-1.0.6-1.20.1.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "both",
+      "confidence": "high",
+      "reason": "Official mod pages mark Immersive Lanterns as client-and-server, and the bundled descriptors keep only optional client-side lighting integrations.",
+      "source": "curated-runtime-review",
+      "priority": 140,
+      "updatedAt": "2026-03-19",
+      "notes": "Added for the cross-platform bundled jar variant that currently normalizes to the NeoForge subject in Medieval MC."
+    },
+    {
+      "ruleId": "mixed.tide.neoforge.both",
+      "modIds": ["tide"],
+      "fileNames": [
+        "tide-fabric-1.21.1-2.0.3.jar",
+        "tide-forge-1.20.1-2.0.3.jar",
+        "tide-forge-1.20.1-1.6.5.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "both",
+      "confidence": "high",
+      "reason": "Official release metadata marks Tide as required on both sides, and the bundled loader descriptors use BOTH-side dependencies throughout.",
+      "source": "curated-runtime-review",
+      "priority": 140,
+      "updatedAt": "2026-03-19",
+      "notes": "Promoted from the current Medieval MC review case after checking both Modrinth release metadata and local bundled descriptors."
+    },
+    {
+      "ruleId": "mixed.wabi-sabi-structures.quilt.server",
+      "modIds": ["wabi_sabi_structures"],
+      "fileNames": [
+        "Wabi-Sabi Structures 3.0.1-1.21 Fabric.jar"
+      ],
+      "loaders": ["quilt"],
+      "side": "server",
+      "confidence": "high",
+      "reason": "Official datapack pages explicitly state that Wabi-Sabi Structures can be installed server-side only, and local loader metadata shows a resource-loader datapack wrapper.",
+      "source": "curated-runtime-review",
+      "priority": 145,
+      "updatedAt": "2026-03-19",
+      "notes": "Kept as a Quilt subject because the current parser normalizes this Fabric/Quilt wrapper to the Quilt loader variant."
+    },
+    {
+      "ruleId": "mixed.mr-dungeons-and-taverns-ancient-city.fabric.both",
+      "modIds": ["mr_dungeons_andtavernsancientcityoverhaul"],
+      "fileNames": [
+        "DnT-ancient-city-overhaul-v2 [Fabric].jar"
+      ],
+      "loaders": ["fabric"],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Local metadata identifies the jar as a Fabric resource-loader datapack with no code entrypoints beyond pack loading.",
+      "source": "curated-review-promotion",
+      "priority": 125,
+      "updatedAt": "2026-03-19",
+      "notes": "Promoted from needs-curated-review after manual verification of the embedded fabric.mod.json."
+    },
+    {
+      "ruleId": "mixed.mr-dungeons-and-taverns-pillager-outpost.fabric.both",
+      "modIds": ["mr_dungeons_andtavernspillageroutpostoverhaul"],
+      "fileNames": [
+        "DnT-pillager-outpost-overhaul-v2.2 [Fabric].jar"
+      ],
+      "loaders": ["fabric"],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Local metadata identifies the jar as a Fabric resource-loader datapack with no code entrypoints beyond pack loading.",
+      "source": "curated-review-promotion",
+      "priority": 125,
+      "updatedAt": "2026-03-19",
+      "notes": "Promoted from needs-curated-review after manual verification of the embedded fabric.mod.json."
+    },
+    {
+      "ruleId": "mixed.mr-dungeons-and-taverns-swamp-hut.fabric.both",
+      "modIds": ["mr_dungeons_andtavernsswamphutoverhaul"],
+      "fileNames": [
+        "DnT-swamp-hut-overhaul-v2 [Fabric].jar"
+      ],
+      "loaders": ["fabric"],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Local metadata identifies the jar as a Fabric resource-loader datapack with no code entrypoints beyond pack loading.",
+      "source": "curated-review-promotion",
+      "priority": 125,
+      "updatedAt": "2026-03-19",
+      "notes": "Promoted from needs-curated-review after manual verification of the embedded fabric.mod.json."
+    }
+  ]
+}

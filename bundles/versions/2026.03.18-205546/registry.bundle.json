@@ -1,0 +1,1796 @@
+{
+  "schemaVersion": 1,
+  "registryVersion": "2026.03.18-205546",
+  "generatedAt": "2026-03-18T20:55:46.272Z",
+  "rules": [
+    {
+      "ruleId": "fabric.adaptive-tooltips.client",
+      "modIds": [
+        "adaptive-tooltips"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "AdaptiveTooltips-1.0.1-fabric-1.19.2.jar",
+        "AdaptiveTooltips-1.3.0-fabric-1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "fabric.advancementplaques.client",
+      "modIds": [
+        "advancementplaques"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "AdvancementPlaques-1.21.1-fabric-1.6.8.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "mixed.ambientsounds.client",
+      "modIds": [
+        "ambientsounds"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "AmbientSounds_FORGE_v6.1.11_mc1.20.1.jar",
+        "AmbientSounds_NEOFORGE_v6.3.4_mc1.21.1.jar"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated review hits only expose client-side ambience assets and audio hooks.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted to remove repeated sound-only review cases from Forge and NeoForge packs."
+    },
+    {
+      "ruleId": "fabric.animatica.client",
+      "modIds": [
+        "animatica"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "animatica-0.6.1+1.20.4.jar",
+        "animatica-0.6.1+1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "mixed.appleskin.client",
+      "modIds": [
+        "appleskin"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "appleskin-fabric-mc1.20.1-2.5.2.jar",
+        "appleskin-forge-mc1.20.1-2.5.1.jar",
+        "appleskin-neoforge-mc1.21-3.0.7.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated HUD-side corpus usage consistently classify AppleSkin as client-only.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Also resolves the remaining Fabric review case that was still oscillating between shared metadata and UI-only evidence."
+    },
+    {
+      "ruleId": "fabric.axolotlitemfix.client",
+      "modIds": [
+        "axolotlitemfix"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "axolotl-item-fix-1.1.4.jar",
+        "axolotl-item-fix-1.1.7.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "mixed.badoptimizations.client",
+      "modIds": [
+        "badoptimizations"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "BadOptimizations-2.2.3-1.20.1.jar",
+        "BadOptimizations-2.4.1-1.21.1.jar"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Repeated runtime review cases align with renderer-only mixins and the legacy client blocklist signal.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest dev-check runs after archive analysis repeatedly surfaced renderer and ClientPlayer mixins without server-side evidence."
+    },
+    {
+      "ruleId": "fabric.betterbeds.client",
+      "modIds": [
+        "betterbeds"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "betterbeds-1.3.0-1.19.3.jar",
+        "betterbeds-fabric-1.4.0.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.bettermounthud.client",
+      "modIds": [
+        "bettermounthud"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "bettermounthud-1.2.2.jar",
+        "bettermounthud-1.2.4.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "fabric.betterthirdperson.client",
+      "modIds": [
+        "betterthirdperson"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "BetterThirdPerson-Fabric-1.20-1.9.0.jar",
+        "BetterThirdPerson-Fabric-1.21-1.9.0.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "mixed.bhmenu.client",
+      "modIds": [
+        "bhmenu"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "BHMenu-Fabric-1.20.1-2.4.2.jar",
+        "BHMenu-Forge-1.20.1-2.4.3.jar",
+        "BHMenu-NeoForge-1.21-2.4.4.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and runtime review history both indicate a menu-only client mod with no server-side evidence.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Includes file-name fallback so malformed Fabric jars without parsed metadata still match the curated rule."
+    },
+    {
+      "ruleId": "fabric.boatiview.client",
+      "modIds": [
+        "boatiview"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Boat-Item-View-Fabric-1.20.1-0.0.5.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.bobby.client",
+      "modIds": [
+        "bobby"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "bobby-5.0.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.cardinal-components.both",
+      "modIds": [
+        "cardinal-components"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "cardinal-components-api-4.2.0.jar",
+        "cardinal-components-api-5.0.2.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated shared-library keep review cases."
+    },
+    {
+      "ruleId": "fabric.chat-heads.client",
+      "modIds": [
+        "chat_heads"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "chat_heads-0.15.0-fabric-1.20.jar",
+        "chat_heads-0.15.0-fabric-1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.citresewn.client",
+      "modIds": [
+        "citresewn"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "citresewn-1.2.2+1.20.1.jar",
+        "citresewn-1.2.2+1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "mixed.clickadv.client",
+      "modIds": [
+        "clickadv"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "clickadv-1.20.1-3.8.jar",
+        "clickadv-1.21-3.8.jar",
+        "clickadv-fabric-1.20.1-3.8.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and review evidence consistently point to a purely client-side advancement UI helper.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted after repeated runtime review cases in HUD-oriented packs."
+    },
+    {
+      "ruleId": "fabric.configureddefaults.both",
+      "modIds": [
+        "configureddefaults"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "ConfiguredDefaults-v21.1.3-1.21.1-Fabric.jar",
+        "ConfiguredDefaults-v8.0.1-1.20.1-Fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated shared-library keep review cases."
+    },
+    {
+      "ruleId": "fabric.continuity.client",
+      "modIds": [
+        "continuity"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "continuity-3.0.0-beta.5+1.20.1.jar",
+        "continuity-3.0.0+1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 7 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.controlling.client",
+      "modIds": [
+        "controlling"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Controlling-fabric-1.20.1-12.0.2.jar",
+        "Controlling-fabric-1.21.1-19.0.5.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "mixed.controlling.client",
+      "modIds": [
+        "controlling"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Controlling-forge-1.20.1-12.0.2.jar",
+        "Controlling-neoforge-1.21.1-19.0.5.jar"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist identifies Controlling as a keybind-search UI mod with client-only behavior.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Fabric is already covered by an earlier curated wave; this extends the same decision to Forge and NeoForge."
+    },
+    {
+      "ruleId": "fabric.cubes-without-borders.client",
+      "modIds": [
+        "cubes-without-borders"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "cwb-fabric-3.0.0+mc1.20.jar",
+        "cwb-fabric-3.0.0+mc1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.dynamic-fps.client",
+      "modIds": [
+        "dynamic_fps"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "dynamic-fps-3.11.4+minecraft-1.21.0-fabric.jar",
+        "dynamic-fps-3.9.5+minecraft-1.21.0-fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.dynamictooltips.client",
+      "modIds": [
+        "dynamictooltips"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "dynamic-tooltips-0.5.0.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "fabric.dynamictrim.both",
+      "modIds": [
+        "dynamictrim"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "dynamictrim-1.4.1-fabric+1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated shared-library keep review cases."
+    },
+    {
+      "ruleId": "fabric.eatinganimationid.client",
+      "modIds": [
+        "eatinganimationid"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "eating-animation-1.20+1.9.61.jar",
+        "eating-animation-1.21+1.9.72.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "mixed.embeddium.client",
+      "modIds": [
+        "embeddium"
+      ],
+      "aliases": [
+        "rubidium"
+      ],
+      "fileNames": [
+        "embeddium-0.3.31+mc1.20.1.jar",
+        "embeddium-1.0.15+mc1.21.1.jar"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Legacy blocklist and the existing main-project test suite both treat Embeddium as a client graphics optimization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted with higher confidence because the main project already relies on this classification in automated tests."
+    },
+    {
+      "ruleId": "fabric.enchdesc.client",
+      "modIds": [
+        "enchdesc"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "EnchantmentDescriptions-Fabric-1.20.1-17.1.19.jar",
+        "enchdesc-fabric-1.21.1-21.1.9.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.enhancedblockentities.client",
+      "modIds": [
+        "enhancedblockentities"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "enhancedblockentities-0.10.2+1.21.jar",
+        "enhancedblockentities-0.9+1.20.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 4 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.entity_model_features.client",
+      "modIds": [
+        "entity_model_features"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "entity_model_features_1.20.1-fabric-3.0.12.jar",
+        "entity_model_features_1.21-fabric-3.0.12.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.entity_texture_features.client",
+      "modIds": [
+        "entity_texture_features"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "entity_texture_features_1.20.1-fabric-7.0.9.jar",
+        "entity_texture_features_1.21-fabric-7.0.9.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.equipmentcompare.client",
+      "modIds": [
+        "equipmentcompare"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "EquipmentCompare-1.19-fabric-1.3.1.jar",
+        "EquipmentCompare-1.21.1-fabric-1.3.13.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "mixed.euphoria_patcher.client",
+      "modIds": [
+        "euphoria_patcher"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "EuphoriaPatcher-1.8.6-r5.7.1-fabric.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-forge.jar",
+        "EuphoriaPatcher-1.8.6-r5.7.1-neoforge.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and corpus metadata consistently mark Euphoria Patcher as a client shader-side helper.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Includes file-name fallback to cover malformed Fabric jars that fail metadata extraction but still appear in review."
+    },
+    {
+      "ruleId": "fabric.fabric-api.both",
+      "modIds": [
+        "fabric-api"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "fabric-api-0.116.9+1.21.1.jar",
+        "fabric-api-0.92.7+1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated shared-library keep review cases."
+    },
+    {
+      "ruleId": "fabric.fallingleaves.client",
+      "modIds": [
+        "fallingleaves"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "fallingleaves-1.13.0+1.19.2.jar",
+        "fallingleaves-1.15.6+1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "mixed.fancymenu.client",
+      "modIds": [
+        "fancymenu"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "fancymenu_fabric_3.7.0_MC_1.20.1.jar",
+        "fancymenu_forge_3.7.0_MC_1.20.1.jar",
+        "fancymenu_neoforge_3.8.1_MC_1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and corpus prevalence both identify FancyMenu as a client menu customization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted to suppress high-volume client UI false-positive review cases across all supported loaders."
+    },
+    {
+      "ruleId": "fabric.held-item-info.client",
+      "modIds": [
+        "held-item-info"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "held-item-info-1.4.0.jar",
+        "held-item-info-1.5.0.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "fabric.highlighter.client",
+      "modIds": [
+        "highlighter"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Highlighter-1.20.1-fabric-1.1.9.jar",
+        "Highlighter-1.21-fabric-1.1.11.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.iceberg.both",
+      "modIds": [
+        "iceberg"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Iceberg-1.19.1-fabric-1.0.46.jar",
+        "Iceberg-1.20.1-fabric-1.1.25.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated shared-library keep review cases."
+    },
+    {
+      "ruleId": "fabric.icon-leading-tooltip.client",
+      "modIds": [
+        "icon-leading-tooltip"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "icon-leading-tooltip-fabric-1.0.7.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "fabric.immediatelyfast.client",
+      "modIds": [
+        "immediatelyfast"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "ImmediatelyFast-Fabric-1.3.2+1.20.4.jar",
+        "ImmediatelyFast-Fabric-1.6.10+1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.indium.client",
+      "modIds": [
+        "indium"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "indium-1.0.35+mc1.21.jar",
+        "indium-1.0.36+mc1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 7 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.inventoryhud.client",
+      "modIds": [
+        "inventoryhud"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "inventoryhud.fabric.1.20.1-3.4.26.jar",
+        "inventoryhud.fabric.1.21.1-3.4.26.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.inventoryprofilesnext.client",
+      "modIds": [
+        "inventoryprofilesnext"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "InventoryProfilesNext-fabric-1.19-1.10.12.jar",
+        "InventoryProfilesNext-fabric-1.21.1-2.2.3.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.iris.client",
+      "modIds": [
+        "iris"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "iris-1.7.6+mc1.20.1.jar",
+        "iris-fabric-1.8.8+mc1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.irisflw.client",
+      "modIds": [
+        "irisflw"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "iris-flywheel-compat-fabric1.18.2+1.0.2.jar",
+        "iris-flywheel-compat-fabric1.19.2+1.0.3b.jar",
+        "iris-flywheel-compat-fabric1.20.1+1.1.4.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.itemborders.client",
+      "modIds": [
+        "itemborders"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "ItemBorders-1.20.1-fabric-1.2.2.jar",
+        "ItemBorders-1.21-fabric-1.2.5.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "mixed.konkrete.client",
+      "modIds": [
+        "konkrete"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "konkrete_fabric_1.9.9_MC_1.21.jar",
+        "konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+        "konkrete_neoforge_1.9.9_MC_1.21.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and dependency patterns link Konkrete to client UI stacks such as FancyMenu.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Used as the shared client-side library behind multiple menu customization mods."
+    },
+    {
+      "ruleId": "fabric.lambdynlights.client",
+      "modIds": [
+        "lambdynlights"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "lambdynamiclights-2.2.0+1.19.2.jar",
+        "lambdynamiclights-4.4.0+1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.languagereload.client",
+      "modIds": [
+        "languagereload"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "language-reload-1.7.5+1.20.1.jar",
+        "language-reload-1.7.5+1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.legendarytooltips.client",
+      "modIds": [
+        "legendarytooltips"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+        "LegendaryTooltips-1.21.1-fabric-1.5.5.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.libipn.client",
+      "modIds": [
+        "libipn"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "libIPN-fabric-1.19-4.0.2.jar",
+        "libIPN-fabric-1.21.1-6.6.2.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.lootbeams.client",
+      "modIds": [
+        "lootbeams"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "lootbeams-1.0.3.jar",
+        "lootbeams-3.6.1-mc1.21-.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 3 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "mixed.melody.client",
+      "modIds": [
+        "melody"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "melody_fabric_1.0.10_MC_1.21.jar",
+        "melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+        "melody_neoforge_1.0.10_MC_1.21.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist consistently treats Melody as a client audio library used by menu customization stacks.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted together with FancyMenu and Konkrete to keep the whole client-only menu stack aligned."
+    },
+    {
+      "ruleId": "fabric.mindfuldarkness.client",
+      "modIds": [
+        "mindfuldarkness"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "MindfulDarkness-v8.0.3-1.20.1-Fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.modelfix.client",
+      "modIds": [
+        "modelfix"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "modelfix-1.21-1.6-fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.modmenu.client",
+      "modIds": [
+        "modmenu"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "modmenu-11.0.3.jar",
+        "modmenu-7.2.2.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 9 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.moreculling.client",
+      "modIds": [
+        "moreculling"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "moreculling-fabric-1.21.1-1.0.6.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.mousetweaks.client",
+      "modIds": [
+        "mousetweaks"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "MouseTweaks-fabric-mc1.20-2.26.jar",
+        "MouseTweaks-fabric-mc1.21-2.26.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "mixed.mousetweaks.client",
+      "modIds": [
+        "mousetweaks"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+        "MouseTweaks-neoforge-mc1.21-2.26.1.jar"
+      ],
+      "loaders": [
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist classifies Mouse Tweaks as a client input helper with no server-side execution path.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Fabric is already covered by an earlier curated wave; this fills the Forge and NeoForge gap."
+    },
+    {
+      "ruleId": "fabric.mr-dungeons-and-taverns.both",
+      "modIds": [
+        "mr_dungeons_andtaverns"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "dungeons-and-taverns-3.0.3.f[Fabric].jar",
+        "dungeons-and-taverns-v4.4.4 [Fabric].jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Corpus metadata consistently indicates compatibility with both sides.",
+      "source": "curated-review-promotion",
+      "priority": 120,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review to resolve repeated worldgen keep review cases."
+    },
+    {
+      "ruleId": "fabric.nicer-skies.client",
+      "modIds": [
+        "nicer-skies"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "nicer-skies-1.3.0+1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "mixed.oculus.client",
+      "modIds": [
+        "oculus"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "oculus-mc1.18.2-1.6.4.jar",
+        "oculus-mc1.19.2-1.6.9.jar",
+        "oculus-mc1.20.1-1.8.0.jar"
+      ],
+      "loaders": [
+        "forge"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Legacy blocklist and renderer-only shader integration history both classify Oculus as client-only.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted with higher confidence because it is the Forge-side shader companion to Iris."
+    },
+    {
+      "ruleId": "fabric.overflowingbars.client",
+      "modIds": [
+        "overflowingbars"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "OverflowingBars-v21.1.1-1.21.1-Fabric.jar",
+        "OverflowingBars-v8.0.1-1.20.1-Fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.paginatedadvancements.client",
+      "modIds": [
+        "paginatedadvancements"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "paginatedadvancements-2.5.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    },
+    {
+      "ruleId": "fabric.particle_core.client",
+      "modIds": [
+        "particle_core"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "particle_core-0.2.4+1.21.jar",
+        "particle_core-0.2.5+1.20.1.jar",
+        "particle_core-0.3.3+1.20.1.jar",
+        "particle_core-0.3.3+1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.particular.client",
+      "modIds": [
+        "particular"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "particular-1.21.1-Fabric-1.1.2.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.presencefootsteps.client",
+      "modIds": [
+        "presencefootsteps"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "PresenceFootsteps-1.10.2+1.21.jar",
+        "PresenceFootsteps-1.11.0+1.21.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 4 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.puzzle.client",
+      "modIds": [
+        "puzzle"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "puzzle-1.4.1-1.18.jar",
+        "puzzle-1.5.2+1.20.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "fabric.reeses-sodium-options.client",
+      "modIds": [
+        "reeses-sodium-options"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "reeses_sodium_options-1.7.2+mc1.20.1-build.101.jar",
+        "reeses-sodium-options-fabric-1.8.3+mc1.21.4.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "fabric.resourcepackoverrides.client",
+      "modIds": [
+        "resourcepackoverrides"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+        "ResourcePackOverrides-v8.0.3-1.20.1-Fabric.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 4 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.sdrp.client",
+      "modIds": [
+        "sdrp"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "SimpleDiscordRichPresence-fabric-4.0.3-build.40+mc1.20.1.jar",
+        "SimpleDiscordRichPresence-fabric-88.0.1-build.54+mc1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "fabric.searchables.client",
+      "modIds": [
+        "searchables"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Searchables-fabric-1.20.1-1.0.3.jar",
+        "Searchables-fabric-1.21.1-1.0.2.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Client-side metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client-side metadata across the corpus."
+    },
+    {
+      "ruleId": "fabric.shouldersurfing.client",
+      "modIds": [
+        "shouldersurfing"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "ShoulderSurfing-Fabric-1.21.1-4.22.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "mixed.smoothchunk.client",
+      "modIds": [
+        "smoothchunk"
+      ],
+      "aliases": [
+        "smoothchunksave",
+        "smoothchunksaveforge"
+      ],
+      "fileNames": [
+        "smoothchunk-1.20.1-4.0.jar",
+        "smoothchunk-1.21-4.1.jar",
+        "smoothchunk-fabric-1.21-4.1.jar"
+      ],
+      "loaders": [
+        "fabric",
+        "forge",
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Legacy blocklist and repeated runtime review hits consistently point to a client-side chunk rendering optimization mod.",
+      "source": "legacy-blocklist-promotion",
+      "priority": 135,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted specifically to remove remaining review noise from graphics optimization packs."
+    },
+    {
+      "ruleId": "fabric.sodium.client",
+      "modIds": [
+        "sodium"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "sodium-fabric-0.5.13+mc1.20.1.jar",
+        "sodium-fabric-0.6.13+mc1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 9 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "fabric.sodium-extra.client",
+      "modIds": [
+        "sodium-extra"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "sodium-extra-0.5.4+mc1.20.1-build.115.jar",
+        "sodium-extra-0.5.9+mc1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from subject-summary after repeated client-only Fabric metadata across 9 instances and no current runtime review hits."
+    },
+    {
+      "ruleId": "mixed.sodiumoptionsapi.client",
+      "modIds": [
+        "sodiumoptionsapi"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "sodiumoptionsapi-fabric-1.0.10-1.20.1.jar",
+        "sodiumoptionsapi-fabric-1.0.10-1.21.1.jar",
+        "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar"
+      ],
+      "loaders": [
+        "neoforge"
+      ],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Repeated runtime review cases only expose GUI-oriented archive paths and no server-side evidence.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest Prominence II and Medieval MC dev-check runs after repeated review hits around Sodium options GUI classes and assets."
+    },
+    {
+      "ruleId": "fabric.tipsmod.client",
+      "modIds": [
+        "tipsmod"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Tips-Fabric-1.20.1-12.1.8.jar",
+        "tipsmod-fabric-1.21.1-21.1.3.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.travelerstitles.client",
+      "modIds": [
+        "travelerstitles"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "TravelersTitles-1.20-Fabric-4.0.2.jar",
+        "TravelersTitles-1.21.1-Fabric-5.1.3.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. Forge and NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.visuality.client",
+      "modIds": [
+        "visuality"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "visuality-0.5.6.jar",
+        "visuality-0.7.1+1.20.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable and repeated review cases justify a curated client rule.",
+      "source": "curated-review-promotion",
+      "priority": 110,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from needs-curated-review after repeated review hits and stable Fabric client entrypoints across the corpus."
+    },
+    {
+      "ruleId": "fabric.wi_zoom.client",
+      "modIds": [
+        "wi_zoom"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "WI-Zoom-1.4-MC1.18.2.jar",
+        "WI-Zoom-1.6-MC1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted only for the Fabric loader. NeoForge variants are intentionally left unresolved."
+    },
+    {
+      "ruleId": "fabric.yeetusexperimentus.both",
+      "modIds": [
+        "yeetusexperimentus"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "YeetusExperimentus-Fabric-2.3.1-build.6+mc1.20.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "both",
+      "confidence": "medium",
+      "reason": "Metadata explicitly marks the jar as shared/common; the remaining review case comes from a low-confidence legacy filename signal.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from the latest Prominence II dev-check run to override a weak blocklist match with stronger shared-side metadata."
+    },
+    {
+      "ruleId": "fabric.zoomify.client",
+      "modIds": [
+        "zoomify"
+      ],
+      "aliases": [],
+      "fileNames": [
+        "Zoomify-2.14.2+1.20.1.jar",
+        "zoomify-2.15.1+1.21.1.jar"
+      ],
+      "loaders": [
+        "fabric"
+      ],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Client-only metadata is stable across the corpus, including client entrypoints.",
+      "source": "curated-corpus-metadata",
+      "priority": 100,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from safe-auto candidates after repeated Fabric-only client metadata across 2 instances."
+    }
+  ]
+}

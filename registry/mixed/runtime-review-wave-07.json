@@ -1,0 +1,87 @@
+{
+  "$schema": "https://mayorovyf.github.io/ClientModPackRegistry/schemas/authoring-batch.schema.json",
+  "batchId": "mixed-runtime-review-wave-07",
+  "description": "Seventh curated wave focused on repeated dev-check review cases with explicit client-side metadata or file-name fallbacks.",
+  "rules": [
+    {
+      "ruleId": "mixed.bhmenu.client.v241",
+      "modIds": ["bhmenu"],
+      "fileNames": [
+        "BHMenu-Fabric-1.20.1-2.4.1.jar"
+      ],
+      "loaders": ["fabric"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Fabric metadata explicitly marks BHMenu as environment=client and only exposes multiplayer-menu entrypoints.",
+      "source": "curated-runtime-review",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Fills the remaining Fabric 2.4.1 version gap so malformed jars from Better MC stop falling through review."
+    },
+    {
+      "ruleId": "mixed.betteradvancements.neoforge.client",
+      "modIds": ["betteradvancements"],
+      "fileNames": [
+        "BetterAdvancements-NeoForge-1.21.1-0.4.3.21.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "NeoForge metadata sets displayTest=NONE and marks its runtime dependencies as CLIENT-only.",
+      "source": "curated-corpus-metadata",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from repeated FTB StoneBlock 4 review hits after checking the bundled neoforge.mods.toml descriptors."
+    },
+    {
+      "ruleId": "mixed.lambdynlights.neoforge.client",
+      "modIds": ["lambdynlights"],
+      "fileNames": [
+        "lambdynamiclights-4.8.6+1.21.1.jar",
+        "lambdynamiclights-4.8.7+1.21.1.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "NeoForge metadata only requires lambdynlights_runtime on the CLIENT side, matching the Fabric client-only environment signal.",
+      "source": "curated-corpus-metadata",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Extends the earlier Fabric-only LambDynamicLights rule to the NeoForge bundle variant seen in Medieval MC."
+    },
+    {
+      "ruleId": "mixed.sodiumdynamiclights.neoforge.client",
+      "modIds": ["sodiumdynamiclights"],
+      "fileNames": [
+        "sodiumdynamiclights-fabric-1.0.9-1.20.1.jar",
+        "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+        "sodiumdynamiclights-neoforge-1.0.10-1.21.1.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "client",
+      "confidence": "medium",
+      "reason": "Fabric metadata explicitly marks the mod as client-only, and repeated runtime review only exposes renderer and dynamic-lighting integrations.",
+      "source": "curated-runtime-review",
+      "priority": 130,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted to cover the cross-platform bundled jar variant that still falls through review in Better MC."
+    },
+    {
+      "ruleId": "mixed.sodiumoptionsmodcompat.neoforge.client",
+      "modIds": ["sodiumoptionsmodcompat"],
+      "fileNames": [
+        "sodiumoptionsmodcompat-fabric-1.0.0-1.20.1.jar",
+        "sodiumoptionsmodcompat-fabric-1.0.0-1.21.1.jar",
+        "sodiumoptionsmodcompat-forge-1.0.0-1.20.1.jar"
+      ],
+      "loaders": ["neoforge"],
+      "side": "client",
+      "confidence": "high",
+      "reason": "Metadata consistently marks the mod as client-only and its bundled runtime depends on Sodium Options API only on the CLIENT side.",
+      "source": "curated-corpus-metadata",
+      "priority": 140,
+      "updatedAt": "2026-03-18",
+      "notes": "Promoted from repeated Better MC and Medieval MC review cases after checking fabric.mod.json and bundled NeoForge descriptors."
+    }
+  ]
+}
